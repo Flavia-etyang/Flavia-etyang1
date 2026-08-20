@@ -199,15 +199,11 @@ Full write-up: [`case-studies/container-vessel.md`](case-studies/container-vesse
 
 Classification is comparative: it is based on converging evidence, not a single visual cue.
 
-| Feature | Crude Oil Tanker | LPG Carrier | Container Vessel |
-|---|---|---|---|
-| Clear cargo deck | Yes | No — containment structures present | No — container stacks present |
-| Deck piping | Prominent, longitudinal | Limited / localized | Not primary |
-| Cargo containment | N/A | Cylindrical / spherical / membrane | N/A |
-| Container stacks | No | No | Yes, repetitive |
-| Deck cranes | Uncommon | Uncommon | Sometimes present |
-| Structural pattern | Open deck + piping | Discrete containment structures | Regular rectangular bays |
-| Primary classification evidence | Piping + clear deck + hull proportions | Containment geometry + hull proportions | Container geometry + hull proportions |
+<div align="center">
+
+<img src="assets/classific.jpg" alt="Classification comparison table — crude oil tanker vs LPG tanker vs container ship" width="100%" />
+
+</div>
 
 ---
 
