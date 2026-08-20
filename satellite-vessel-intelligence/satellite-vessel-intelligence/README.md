@@ -153,7 +153,7 @@ Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
 <tr>
 <td width="55%">
 
-<img src="assets/vessel-03-container/annotated-features.svg" width="100%"/>
+<img src="assets/vessel-03-container/container.jpg" width="100%"/>
 
 </td>
 <td width="45%" valign="top">
