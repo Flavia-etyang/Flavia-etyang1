@@ -17,7 +17,7 @@
 
 | EO / Optical | SAR | Measurement |
 |---|---|---|
-| ![EO placeholder](../assets/vessel-01-tanker/eo.svg) | ![SAR placeholder](../assets/vessel-01-tanker/sar.svg) | ![Measurement placeholder](../assets/vessel-01-tanker/measurement-overlay.svg) |
+| ![EO placeholder](../assets/vessel-01-tanker/EO..jpg) | ![SAR placeholder](../assets/vessel-01-tanker/sar.svg) | ![Measurement placeholder](../assets/vessel-01-tanker/measurement-overlay.svg) |
 
 ## Observation
 
