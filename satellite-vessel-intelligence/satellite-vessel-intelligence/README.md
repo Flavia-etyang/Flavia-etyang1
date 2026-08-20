@@ -109,7 +109,7 @@ Full write-up: [`case-studies/tanker.md`](case-studies/tanker.md)
 <tr>
 <td width="55%">
 
-<img src="assets/vessel-02-lpg/annotated-features.svg" width="100%"/>
+<img src="assets/vessel-02-lpg/lpg.jpg" width="100%"/>
 
 </td>
 <td width="45%" valign="top">
