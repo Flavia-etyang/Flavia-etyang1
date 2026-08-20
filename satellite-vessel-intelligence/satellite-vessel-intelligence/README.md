@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero/portfolio-hero.svg" alt="Satellite vessel intelligence hero illustration" width="100%" />
+<img src="assets/hero/tanker-hero.jpg" alt="Aerial view of a crude oil tanker underway" width="100%" />
 
 # SATELLITE VESSEL INTELLIGENCE
 
