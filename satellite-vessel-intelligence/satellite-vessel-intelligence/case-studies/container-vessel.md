@@ -1,6 +1,6 @@
 # Case 03 — Container Vessel
 
-![Annotated features — Case 03](../assets/vessel-03-container/annotated-features.svg)
+![Container vessel — overhead view](../assets/vessel-03-container/container.jpg)
 
 ## Intelligence sidebar
 
