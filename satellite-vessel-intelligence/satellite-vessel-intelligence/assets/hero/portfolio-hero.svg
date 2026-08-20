@@ -9,9 +9,9 @@
     </pattern>
   </defs>
 
-  <!-- background -->
-  <rect x="0" y="0" width="1200" height="420" fill="url(#seaGradient)"/>
-  <rect x="0" y="0" width="1200" height="420" fill="url(#geoGrid)"/>
+     <!-- background -->
+   <image href="heroo.jpg" x="0" y="0" width="1200" height="420" preserveAspectRatio="xMidYMid slice"/>
+   <rect x="0" y="0" width="1200" height="420" fill="url(#geoGrid)" opacity="0.3"/>
 
   <!-- orbital arc -->
   <path d="M 830 40 A 420 420 0 0 1 1150 300" fill="none" stroke="#2E7C89" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.8"/>
@@ -29,7 +29,6 @@
   <!-- scan sweep converging on vessel -->
   <path d="M 830 40 L 600 250" stroke="#2E7C89" stroke-width="1" stroke-dasharray="2 5" opacity="0.5"/>
 
-  <!-- vessel silhouette, overhead view -->
   <g transform="translate(430,190)">
     <!-- hull -->
     <path d="M 0 30
