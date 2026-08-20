@@ -59,7 +59,7 @@ This portfolio demonstrates analysis across three visual perspectives. Placehold
 <tr>
 <td width="55%">
 
-<img src="assets/vessel-01-tanker/annotated-features.svg" width="100%"/>
+<img src="assets/vessel-01-tanker/tanker-photo.jpg" width="100%"/>
 
 </td>
 <td width="45%" valign="top">
