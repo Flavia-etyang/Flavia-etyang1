@@ -1,6 +1,6 @@
 # Case 01 — Crude Oil Tanker
 
-![Annotated features — Case 01](../assets/vessel-01-tanker/annotated-features.svg)
+![Crude oil tanker — aerial view](../assets/vessel-01-tanker/tanker-photo.jpg)
 
 ## Intelligence sidebar
 
