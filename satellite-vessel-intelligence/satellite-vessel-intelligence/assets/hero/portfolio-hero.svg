@@ -9,8 +9,8 @@
     </pattern>
   </defs>
 
-     <!-- background -->
-   <image href="heroo.jpg" x="0" y="0" width="1200" height="420" preserveAspectRatio="xMidYMid slice"/>
+       <!-- background -->
+   <image href="hero-source.jpg" x="0" y="0" width="1200" height="420" preserveAspectRatio="xMidYMid slice"/>
    <rect x="0" y="0" width="1200" height="420" fill="url(#geoGrid)" opacity="0.3"/>
 
   <!-- orbital arc -->
