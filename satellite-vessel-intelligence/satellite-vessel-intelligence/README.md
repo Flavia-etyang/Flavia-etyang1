@@ -49,7 +49,7 @@ This portfolio demonstrates analysis across three visual perspectives. Placehold
 
 | EO / Optical | SAR | Measurement Reference |
 |---|---|---|
-| <img src="assets/vessel-01-tanker/eo.svg" width="260"/> | <img src="assets/vessel-01-tanker/sar.svg" width="260"/> | <img src="assets/vessel-01-tanker/measurement-overlay.svg" width="260"/> |
+| <img src="assets/vessel-01-tanker/eo.jpg.jpg" width="260"/> | <img src="assets/vessel-01-tanker/sar.svg" width="260"/> | <img src="assets/vessel-01-tanker/measurement-overlay.svg" width="260"/> |
 
 ---
 
