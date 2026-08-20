@@ -1,0 +1,63 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Annotated overhead illustration of a crude oil tanker">
+  <rect x="0" y="0" width="700" height="420" fill="#DFF6FA"/>
+
+  <!-- vessel silhouette, overhead view -->
+  <g transform="translate(90,140)">
+    <path d="M 0 40 L 30 10 Q 55 -10 100 -10 L 420 -10 Q 448 -10 462 8 L 476 40
+             L 462 72 Q 448 90 420 90 L 100 90 Q 55 90 30 70 Z"
+          fill="#173F49" stroke="#0d2b32" stroke-width="2"/>
+
+    <!-- superstructure (aft) -->
+    <rect x="392" y="0" width="66" height="80" rx="3" fill="#123E48" stroke="#0d2b32" stroke-width="1.5"/>
+    <rect x="404" y="12" width="10" height="14" fill="#2E7C89" opacity="0.7"/>
+    <rect x="422" y="12" width="10" height="14" fill="#2E7C89" opacity="0.7"/>
+
+    <!-- deck piping (longitudinal cargo transfer lines) -->
+    <line x1="70" y1="16" x2="380" y2="16" stroke="#2E7C89" stroke-width="2.5"/>
+    <line x1="70" y1="30" x2="380" y2="30" stroke="#2E7C89" stroke-width="2.5"/>
+    <line x1="70" y1="44" x2="380" y2="44" stroke="#2E7C89" stroke-width="2.5"/>
+    <line x1="70" y1="58" x2="380" y2="58" stroke="#2E7C89" stroke-width="2.5"/>
+    <line x1="70" y1="72" x2="380" y2="72" stroke="#2E7C89" stroke-width="2.5"/>
+
+    <!-- manifold cross-connections -->
+    <line x1="150" y1="16" x2="150" y2="72" stroke="#2E7C89" stroke-width="1.5" opacity="0.6"/>
+    <line x1="300" y1="16" x2="300" y2="72" stroke="#2E7C89" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- bow taper shading -->
+    <path d="M 0 40 L 30 10 L 30 70 Z" fill="#0d2b32" opacity="0.35"/>
+  </g>
+
+  <!-- bounding box -->
+  <rect x="120" y="130" width="446" height="110" fill="none" stroke="#E76F51" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="120" cy="130" r="3" fill="#E76F51"/>
+  <circle cx="566" cy="130" r="3" fill="#E76F51"/>
+  <circle cx="120" cy="240" r="3" fill="#E76F51"/>
+  <circle cx="566" cy="240" r="3" fill="#E76F51"/>
+
+  <!-- length (LOA) measurement -->
+  <line x1="120" y1="258" x2="566" y2="258" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="120" y1="250" x2="120" y2="266" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="566" y1="250" x2="566" y2="266" stroke="#E76F51" stroke-width="1.5"/>
+  <text x="343" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#123E48" font-weight="600">LOA (estimated)</text>
+
+  <!-- beam measurement -->
+  <line x1="584" y1="130" x2="584" y2="240" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="576" y1="130" x2="592" y2="130" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="576" y1="240" x2="592" y2="240" stroke="#E76F51" stroke-width="1.5"/>
+  <text x="601" y="188" writing-mode="vertical-rl" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#123E48" font-weight="600">BEAM</text>
+
+  <!-- callouts -->
+  <line x1="230" y1="146" x2="230" y2="110" stroke="#123E48" stroke-width="1"/>
+  <text x="230" y="100" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#123E48">Deck piping</text>
+
+  <line x1="425" y1="140" x2="425" y2="108" stroke="#123E48" stroke-width="1"/>
+  <text x="425" y="98" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#123E48">Superstructure (aft)</text>
+
+  <line x1="150" y1="230" x2="150" y2="300" stroke="#123E48" stroke-width="1"/>
+  <text x="150" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#123E48">Clear cargo deck</text>
+
+  <line x1="120" y1="185" x2="60" y2="185" stroke="#123E48" stroke-width="1"/>
+  <text x="55" y="189" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#123E48">Bow</text>
+
+  <text x="20" y="30" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#2E7C89">CASE 01 — ANNOTATED FEATURES (ILLUSTRATIVE)</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Annotated overhead illustration of a container vessel">
+  <rect x="0" y="0" width="700" height="420" fill="#DFF6FA"/>
+
+  <!-- vessel silhouette -->
+  <g transform="translate(70,130)">
+    <path d="M 0 42 L 28 12 Q 50 -8 90 -8 L 470 -8 Q 496 -8 508 8 L 520 42
+             L 508 76 Q 496 96 470 96 L 90 96 Q 50 96 28 72 Z"
+          fill="#173F49" stroke="#0d2b32" stroke-width="2"/>
+
+    <!-- superstructure (aft) -->
+    <rect x="448" y="4" width="56" height="84" rx="3" fill="#123E48" stroke="#0d2b32" stroke-width="1.5"/>
+
+    <!-- container stacks: repetitive rectangular geometry -->
+    <g fill="#2E7C89" stroke="#0d2b32" stroke-width="1">
+      <rect x="55" y="8" width="26" height="18" />
+      <rect x="55" y="30" width="26" height="18" />
+      <rect x="55" y="52" width="26" height="18" />
+      <rect x="85" y="8" width="26" height="18" />
+      <rect x="85" y="30" width="26" height="18" />
+      <rect x="85" y="52" width="26" height="18" />
+      <rect x="115" y="8" width="26" height="18" />
+      <rect x="115" y="30" width="26" height="18" />
+      <rect x="115" y="52" width="26" height="18" />
+      <rect x="150" y="4" width="26" height="18" />
+      <rect x="150" y="26" width="26" height="18" />
+      <rect x="150" y="48" width="26" height="18" />
+      <rect x="150" y="70" width="26" height="18" />
+      <rect x="180" y="4" width="26" height="18" />
+      <rect x="180" y="26" width="26" height="18" />
+      <rect x="180" y="48" width="26" height="18" />
+      <rect x="180" y="70" width="26" height="18" />
+      <rect x="210" y="4" width="26" height="18" />
+      <rect x="210" y="26" width="26" height="18" />
+      <rect x="210" y="48" width="26" height="18" />
+      <rect x="210" y="70" width="26" height="18" />
+      <rect x="245" y="4" width="26" height="18" />
+      <rect x="245" y="26" width="26" height="18" />
+      <rect x="245" y="48" width="26" height="18" />
+      <rect x="245" y="70" width="26" height="18" />
+      <rect x="275" y="4" width="26" height="18" />
+      <rect x="275" y="26" width="26" height="18" />
+      <rect x="275" y="48" width="26" height="18" />
+      <rect x="275" y="70" width="26" height="18" />
+      <rect x="310" y="8" width="26" height="18" />
+      <rect x="310" y="30" width="26" height="18" />
+      <rect x="310" y="52" width="26" height="18" />
+      <rect x="340" y="8" width="26" height="18" />
+      <rect x="340" y="30" width="26" height="18" />
+      <rect x="340" y="52" width="26" height="18" />
+    </g>
+
+    <!-- deck crane -->
+    <line x1="400" y1="-8" x2="400" y2="-28" stroke="#123E48" stroke-width="3"/>
+    <line x1="378" y1="-28" x2="422" y2="-28" stroke="#123E48" stroke-width="3"/>
+
+    <!-- bow taper shading -->
+    <path d="M 0 42 L 28 12 L 28 72 Z" fill="#0d2b32" opacity="0.35"/>
+  </g>
+
+  <!-- bounding box -->
+  <rect x="100" y="118" width="480" height="130" fill="none" stroke="#E76F51" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- length -->
+  <line x1="100" y1="266" x2="580" y2="266" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="100" y1="258" x2="100" y2="274" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="580" y1="258" x2="580" y2="274" stroke="#E76F51" stroke-width="1.5"/>
+  <text x="340" y="288" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#123E48" font-weight="600">LOA (estimated)</text>
+
+  <!-- beam -->
+  <line x1="598" y1="118" x2="598" y2="248" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="590" y1="118" x2="606" y2="118" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="590" y1="248" x2="606" y2="248" stroke="#E76F51" stroke-width="1.5"/>
+  <text x="616" y="188" writing-mode="vertical-rl" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#123E48" font-weight="600">BEAM</text>
+
+  <!-- callouts -->
+  <line x1="220" y1="128" x2="220" y2="96" stroke="#123E48" stroke-width="1"/>
+  <text x="220" y="86" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#123E48">Container stacks (repetitive geometry)</text>
+
+  <line x1="470" y1="128" x2="470" y2="96" stroke="#123E48" stroke-width="1"/>
+  <text x="470" y="86" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#123E48">Deck crane</text>
+
+  <text x="20" y="30" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#2E7C89">CASE 03 — ANNOTATED FEATURES (ILLUSTRATIVE)</text>
+</svg>

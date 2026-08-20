@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EO optical imagery placeholder">
+  <defs>
+    <linearGradient id="eoWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B5E0E8"/>
+      <stop offset="100%" stop-color="#8FCBD6"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="400" height="260" fill="url(#eoWater)"/>
+  <rect x="0" y="0" width="400" height="260" fill="none" stroke="#123E48" stroke-width="2"/>
+
+  <!-- vessel silhouette placeholder -->
+  <g transform="translate(90,110)">
+    <path d="M 0 20 L 14 4 Q 30 -4 55 -4 L 190 -4 Q 205 -4 212 6 L 220 20 L 212 34 Q 205 44 190 44 L 55 44 Q 30 44 14 36 Z"
+          fill="#173F49" opacity="0.85"/>
+    <rect x="165" y="2" width="32" height="34" fill="#0d2b32" opacity="0.85"/>
+  </g>
+
+  <text x="200" y="235" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#123E48" font-weight="700">EO / OPTICAL</text>
+  <text x="200" y="20" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#2E7C89">PLACEHOLDER — NOT ACTUAL IMAGERY</text>
+</svg>

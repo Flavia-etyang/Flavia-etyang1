@@ -1,0 +1,4 @@
+vessel_id,broad_type,estimated_length_m,length_uncertainty_m,estimated_beam_m,beam_uncertainty_m,lb_ratio
+V-01,tanker,182.0,1.5,29.0,1.5,6.28
+V-02,lpg_carrier,186.0,1.5,45.5,1.5,4.09
+V-03,container,298.0,1.5,32.5,1.5,9.17

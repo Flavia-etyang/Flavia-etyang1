@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Satellite vessel intelligence hero illustration">
+  <defs>
+    <linearGradient id="seaGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DFF6FA"/>
+      <stop offset="100%" stop-color="#B5E0E8"/>
+    </linearGradient>
+    <pattern id="geoGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#B5E0E8" stroke-width="1" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1200" height="420" fill="url(#seaGradient)"/>
+  <rect x="0" y="0" width="1200" height="420" fill="url(#geoGrid)"/>
+
+  <!-- orbital arc -->
+  <path d="M 830 40 A 420 420 0 0 1 1150 300" fill="none" stroke="#2E7C89" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.8"/>
+
+  <!-- satellite -->
+  <g transform="translate(830,40)">
+    <rect x="-26" y="-4" width="16" height="8" fill="#173F49"/>
+    <rect x="10" y="-4" width="16" height="8" fill="#173F49"/>
+    <rect x="-10" y="-7" width="20" height="14" rx="2" fill="#123E48"/>
+    <circle cx="0" cy="0" r="2" fill="#E76F51"/>
+    <line x1="0" y1="7" x2="-90" y2="180" stroke="#2E7C89" stroke-width="1" stroke-dasharray="2 5" opacity="0.7"/>
+    <line x1="0" y1="7" x2="90" y2="220" stroke="#2E7C89" stroke-width="1" stroke-dasharray="2 5" opacity="0.7"/>
+  </g>
+
+  <!-- scan sweep converging on vessel -->
+  <path d="M 830 40 L 600 250" stroke="#2E7C89" stroke-width="1" stroke-dasharray="2 5" opacity="0.5"/>
+
+  <!-- vessel silhouette, overhead view -->
+  <g transform="translate(430,190)">
+    <!-- hull -->
+    <path d="M 0 30
+             L 20 6
+             Q 40 -6 70 -6
+             L 300 -6
+             Q 320 -6 330 8
+             L 340 30
+             L 330 52
+             Q 320 66 300 66
+             L 70 66
+             Q 40 66 20 54
+             Z"
+          fill="#173F49" stroke="#123E48" stroke-width="2"/>
+    <!-- superstructure -->
+    <rect x="255" y="4" width="52" height="52" rx="3" fill="#123E48" stroke="#0d2b32" stroke-width="1.5"/>
+    <!-- deck piping lines -->
+    <line x1="55" y1="16" x2="235" y2="16" stroke="#2E7C89" stroke-width="2"/>
+    <line x1="55" y1="30" x2="235" y2="30" stroke="#2E7C89" stroke-width="2"/>
+    <line x1="55" y1="44" x2="235" y2="44" stroke="#2E7C89" stroke-width="2"/>
+    <!-- bow taper detail -->
+    <path d="M 0 30 L 20 6 L 20 54 Z" fill="#0d2b32" opacity="0.4"/>
+  </g>
+
+  <!-- bounding box (measurement / detection frame) -->
+  <rect x="420" y="176" width="360" height="94" fill="none" stroke="#E76F51" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="420" cy="176" r="3" fill="#E76F51"/>
+  <circle cx="780" cy="176" r="3" fill="#E76F51"/>
+  <circle cx="420" cy="270" r="3" fill="#E76F51"/>
+  <circle cx="780" cy="270" r="3" fill="#E76F51"/>
+
+  <!-- length measurement (LOA) -->
+  <line x1="420" y1="292" x2="780" y2="292" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="420" y1="284" x2="420" y2="300" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="780" y1="284" x2="780" y2="300" stroke="#E76F51" stroke-width="1.5"/>
+  <text x="600" y="314" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#123E48" font-weight="600">LOA — LENGTH OVERALL</text>
+
+  <!-- beam measurement -->
+  <line x1="800" y1="176" x2="800" y2="270" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="792" y1="176" x2="808" y2="176" stroke="#E76F51" stroke-width="1.5"/>
+  <line x1="792" y1="270" x2="808" y2="270" stroke="#E76F51" stroke-width="1.5"/>
+  <text x="815" y="227" writing-mode="vertical-rl" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#123E48" font-weight="600">BEAM</text>
+
+  <!-- footer marks: minimal maritime intelligence identity -->
+  <text x="60" y="380" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#2E7C89">OVERHEAD IMAGERY</text>
+  <text x="60" y="398" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#2E7C89">STRUCTURED VESSEL INTELLIGENCE</text>
+</svg>

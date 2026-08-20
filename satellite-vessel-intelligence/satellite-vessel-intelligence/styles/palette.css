@@ -1,0 +1,31 @@
+/*
+  Maritime Intelligence Portfolio — Visual Palette
+  Reference only. GitHub does not load external CSS in README.md;
+  these values are mirrored as literal hex codes inside each SVG asset.
+*/
+
+:root {
+  --sea-blue: #DFF6FA;
+  --sea-blue-secondary: #B5E0E8;
+  --deep-maritime-teal: #123E48;
+  --dark-vessel-teal: #173F49;
+  --supporting-teal: #2E7C89;
+  --analytical-accent: #E76F51;
+  --white: #F8FCFD;
+}
+
+body {
+  background-color: var(--sea-blue);
+  color: var(--deep-maritime-teal);
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.card {
+  background-color: var(--white);
+  border: 1px solid var(--sea-blue-secondary);
+  border-radius: 8px;
+}
+
+.accent {
+  color: var(--analytical-accent);
+}

@@ -1,0 +1,5 @@
+# Foundational analytical tooling only — no ML frameworks.
+# See src/measurement.py and notebooks/vessel-measurement.ipynb.
+
+notebook>=7.0
+nbformat>=5.9

@@ -1,0 +1,5 @@
+vessel_id,broad_type,classification,estimated_length_m,estimated_beam_m,lb_ratio,detection_confidence,dimension_confidence,classification_confidence,identity_confidence
+EXAMPLE-V01,tanker,Crude Oil Tanker,182.0,29.0,6.28,HIGH,MEDIUM,HIGH,LOW
+EXAMPLE-V02,lpg_carrier,LPG Carrier,186.0,45.5,4.09,HIGH,MEDIUM,MEDIUM,N/A
+EXAMPLE-V03,container,Container Vessel,298.0,32.5,9.17,HIGH,HIGH,HIGH,LOW
+EXAMPLE-V04,tanker,Unclassified — insufficient evidence,,,,MEDIUM,LOW,LOW,N/A
