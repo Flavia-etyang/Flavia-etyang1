@@ -236,44 +236,44 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
-**Class**
-
-The purpose is to move from:
-
-**Image Detection → Measurement → Object Identification → Vessel Classification → Status → Confidence**
-
-The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
-
 <table>
 <tr>
 <td width="55%">
 
-<img src="assets/ssidebar.png" width="100%"/>
+<img src="assets/class2.jpg" width="50%"/>
 
 </td>
 <td width="45%" valign="top">
 
 **Class**
 
-The purpose is to move from:
+The various classes include:
 
-**Image Detection → Measurement → Object Identification → Vessel Classification → Status → Confidence**
+- Cargo
+- Tanker
+- Passenger
+- Pleasure
+- Fishing
+- Service / Workboat
+- Naval / Government
+- Other
 
-The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
+</td>
+</tr>
+</table>
 
-<div align="left">
+**Sub-Class**
 
-<img src="assets/class2.jpg" />
+<table>
+<tr>
+<td width="55%">
 
+<img src="assets/subclass2.jpg" width="50%"/>
 
-**Vessel Class**
+</td>
+<td width="45%" valign="top">
 
-
-**Subclass**
-
-<div align="left">
-
-<img src="assets/subclass2.jpg" />
+**Sub-Class**
 
 Examples include:
 
@@ -292,12 +292,23 @@ Examples include:
 - Offshore Support Vessel
 - Yacht / Recreational Vessel
 
+</td>
+</tr>
+</table>
+
 The hierarchy is intentional:
 
 > **Class = broad category**  
 > **Subclass = specific vessel type**
 
 Classification should be based on **converging structural evidence**, rather than a single visual feature.
+
+
+The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
+
+<div align="left">
+
+<img src="assets/class2.jpg" />
 
 ---
 
