@@ -332,18 +332,36 @@ Classification is comparative: it is based on converging evidence, not a single 
 
 The vessel annotation provides the geometric basis for dimension estimation.
 
+<table>
+<tr>
+<td width="55%">
+
+<img src="assets/vessel-03-container/container.jpg" width="100%"/>
+
+</td>
+<td width="45%" valign="top">
+
+**Vessel Class**
+Container Vessel
+
 **Length**
-
 Forward-most detected point → aft-most detected point.
+298 ± 6 m
 
-**Width / Beam**
-
+**Beam/Width**
 Maximum detected vessel breadth.
+32.5 ± 2 m
 
 **L/B Ratio**
-
-```text
 L/B Ratio = Length ÷ Beam
+9.17
+
+**Classification Confidence**
+`HIGH`
+
+</td>
+</tr>
+</table>
 
 ---
 
