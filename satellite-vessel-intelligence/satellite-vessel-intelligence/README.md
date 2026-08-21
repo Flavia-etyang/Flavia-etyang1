@@ -547,28 +547,16 @@ The objective of satellite vessel analysis is not simply to detect an object or 
 
 The objective is to produce a **structured vessel assessment supported by observable evidence, measurable characteristics, and independent validation where available**.
 
-```text
-DETECT - OBSERVE - IDENTIFY - MEASURE - CLASSIFY - VALIDATE - ASSESS - CONFIDENCE
+\`\`\`text
+DETECT → OBSERVE → IDENTIFY → MEASURE → CLASSIFY → VALIDATE → ASSESS → CONFIDENCE
+\`\`\`
 
 ---
 
-# Technicals
+## 7 - Technical Layer
 
-```text
-Python
-→ measurement calculations
-→ structured assessments
-→ data transformation
+The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
 
-SQL
-→ querying vessel datasets
-→ filtering / joining maritime records
-→ analytical extraction
-
-GIS
-→ spatial measurement
-→ geographic context
-→ imagery interpretation
 
 
         │
