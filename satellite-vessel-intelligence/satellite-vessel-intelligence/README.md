@@ -102,7 +102,10 @@ Crude Oil Tanker
 None of these features is individually conclusive. Vessel configurations vary, and the assessment below reflects converging evidence rather than a single visual rule.
 
 > **Intelligence Assessment**
-> [Insert evidence-based conclusion from actual imagery]
+>
+> The observed deck configuration, longitudinal piping and aft superstructure are consistent with a tanker arrangement. The available imagery supports a **crude oil tanker hypothesis**, although vessel identity cannot be established from structural characteristics alone.
+>
+> **Classification confidence: HIGH · Identity confidence: LOW**
 
 Full write-up: [`case-studies/tanker.md`](case-studies/tanker.md)
 
