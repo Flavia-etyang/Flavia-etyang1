@@ -38,11 +38,13 @@ flowchart TD
 
 | Stage | Description |
 |---|---|
-| **01 · OBSERVE** | Identify visible vessel characteristics. |
-| **02 · MEASURE** | Estimate length and beam. |
-| **03 · CLASSIFY** | Determine vessel class from structural evidence. |
-| **04 · VALIDATE** | Correlate imagery observations with independent maritime data where available. |
-| **05 · ASSESS** | Assign classification and confidence. |
+| **01 · OBSERVE** | Identify what it is: vessel, buoy,etc. |
+| **02 · IDENTIFY OBJECT** | Identify visible vessel characteristics. |
+| **03 · MEASURE** | Estimate length and beam. |
+| **04 · CLASSIFY** | Determine vessel class from structural evidence. |
+| **05 · VALIDATE** | Correlate imagery observations with independent maritime data where available. |
+| **06 · ASSESS** | Assign classification |
+| **07 · CONFIDENCE** | With all aspects met, assign confidence. |
 
 ---
 
