@@ -234,7 +234,7 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 ---
 
-### 01 — Class & Subclass
+## 01 — Class & Sub-class
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
@@ -315,7 +315,7 @@ Classification should be based on **converging structural evidence**, rather tha
 
 ---
 
-## Classification Comparison
+#### - Classification Comparison
 
 Classification is comparative: it is based on converging evidence, not a single visual cue.
 
@@ -328,7 +328,7 @@ Classification is comparative: it is based on converging evidence, not a single 
 ---
 
 
-### 02 — Vessel Measurements
+## 02 — Vessel Measurements
 
 The vessel annotation provides the geometric basis for dimension estimation.
 
@@ -371,7 +371,7 @@ Before assigning a vessel class or subclass, the first assessment is to determin
 
 Overhead maritime imagery may contain vessels alongside other objects and structures such as offshore platforms, buoys, barges, floating infrastructure, or ambiguous objects. Establishing the object type therefore forms the first decision point in the classification workflow.
 
-# Object-Type Assessment
+#### - Object-Type Assessment
 
 | **Selection** | **Analytical Interpretation** |
 |---|---|
@@ -399,7 +399,7 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 > **Confidence reflects the strength and convergence of available evidence — not analyst certainty alone.**
 
 
-### Confidence Determination
+#### - Confidence Determination
 
 The assigned confidence level reflects the **quality, completeness, and convergence of available evidence** at the time of assessment. It is determined by the following factors:
 
@@ -423,26 +423,84 @@ The assigned confidence level reflects the **quality, completeness, and converge
 
 ---
 
-## Evidence vs. Inference
+---
 
-| Stage | Question |
+## 5 - Evidence vs. Inference
+
+A vessel assessment should maintain a clear distinction between **what is directly observed**, **what is inferred from those observations**, and **what can be independently validated**.
+
+| **Stage** | **Analytical Question** |
 |---|---|
-| **Observation** | What is directly visible? |
-| **Inference** | What does it suggest? |
-| **Validation** | What independent evidence supports it? |
-| **Assessment** | What conclusion is justified? |
-| **Confidence** | How strong is the evidence? |
+| **Observation** | What is directly visible or measurable? |
+| **Inference** | What does the available evidence suggest? |
+| **Validation** | What independent evidence supports or challenges the interpretation? |
+| **Assessment** | What conclusion is justified by the available evidence? |
+| **Confidence** | How strong, reliable, and convergent is the supporting evidence? |
 
-**Worked example**
+#### Worked Example
 
-- **Observation:** Longitudinal pipes are visible.
-- **Inference:** Liquid-cargo transfer infrastructure may be present.
-- **Classification:** Tanker hypothesis.
-- **Validation:** Compare against vessel particulars, AIS, or external vessel databases.
-- **Assessment:** Classification confidence increases where validation is consistent.
+**Observation**
 
-**A hypothesis is never presented as an observed fact.** Full discussion: [`methodology/evidence-vs-inference.md`](methodology/evidence-vs-inference.md).
+Longitudinal piping is visible across the vessel's deck.
 
+↓
+
+**Inference**
+
+The observed configuration may indicate liquid-cargo handling infrastructure.
+
+↓
+
+**Classification Hypothesis**
+
+`Tanker`
+
+↓
+
+**Validation**
+
+Compare the observed structure against available vessel particulars, AIS information, external vessel databases, or other independent maritime data.
+
+↓
+
+**Assessment**
+
+The tanker classification is strengthened where multiple independent indicators are consistent with the same assessment.
+
+↓
+
+**Confidence**
+
+Confidence increases where the available evidence is clear, distinctive, independently corroborated, and free from significant conflicting indicators.
+
+> **Analytical principle: A hypothesis is never presented as an observed fact.**
+
+Full discussion: [`methodology/evidence-vs-inference.md`](methodology/evidence-vs-inference.md).
+
+---
+
+## 6 - Intelligence Assessment
+
+The objective of satellite vessel analysis is not simply to detect an object or assign a vessel class.
+
+The objective is to produce a **structured vessel assessment supported by observable evidence, measurable characteristics, and independent validation where available**.
+
+The analytical workflow applied throughout this case study can be summarized as:
+
+```text
+DETECT
+  ↓
+OBSERVE
+  ↓
+MEASURE
+  ↓
+CLASSIFY
+  ↓
+VALIDATE
+  ↓
+ASSESS
+  ↓
+ASSIGN CONFIDENCE
 ---
 
 ## Technical Stack
@@ -459,6 +517,7 @@ Structured Data
         │
         ▼
 MARITIME VESSEL INTELLIGENCE
+
 ```
 
 The code in this repository demonstrates foundational analytical tooling — pixel-to-metre conversion, L/B ratio, and uncertainty handling — not an advanced machine-learning system. The value being demonstrated is maritime domain expertise translated into structured, correct, well-documented analysis.
