@@ -240,25 +240,23 @@ The classification hierarchy separates the **broad vessel class** from the **spe
 
 **Class**
 
+The purpose is to move from:
+
+**Image Detection → Measurement → Object Identification → Vessel Classification → Status → Confidence**
+
+The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
+
 <table>
 <tr>
 <td width="55%">
 
-<img src="assets/class.jpg" />
+<img src="assets/class.jpg" width="30%" />
 
 </td>
 <td width="45%" valign="top">
 
 **Vessel Class**
-Container Vessel
-Cargo
-Tanker
-Passenger
-Pleasure
-Fishing
-Service / Workboat
-Naval / Government
-Other
+
 
 **Subclass**
 
