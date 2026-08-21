@@ -365,6 +365,48 @@ L/B Ratio = Length ÷ Beam
 
 ---
 
+## What This Is
+
+Before assigning a vessel class or subclass, the first assessment is to determine **what the detected object represents**.
+
+Overhead maritime imagery may contain vessels alongside other objects and structures such as offshore platforms, buoys, barges, floating infrastructure, or ambiguous objects. Establishing the object type therefore forms the first decision point in the classification workflow.
+
+### Object-Type Assessment
+
+| **Selection** | **Analytical Interpretation** |
+|---|---|
+| **Vessel** | A floating, self-propelled or non-self-propelled craft exhibiting sufficient hull and/or superstructure characteristics to support a vessel assessment. |
+| **Platform / Oil Rig** | A fixed or floating offshore installation whose structural configuration is inconsistent with a conventional vessel. |
+| **Barge** | A generally flat-bottomed or cargo-oriented floating structure, typically characterized by a broad deck and limited or absent conventional vessel superstructure. |
+| **Buoy** | A floating navigational, mooring, marking, or monitoring structure whose scale and configuration are inconsistent with a conventional vessel. |
+| **Other** | A maritime object that does not sufficiently conform to the defined categories but can still be positively distinguished from background or environmental features. |
+| **Unknown** | The available imagery does not provide sufficient evidence to determine the object's type reliably. |
+
+> **Analytical principle:** Object identification precedes vessel classification. An ambiguous maritime object should not be forced into a vessel category simply because it appears on the water.
+
+### Decision Logic
+
+```text
+DETECTED OBJECT
+      ↓
+Is sufficient structure visible?
+      ↓
+ ┌───────────────┐
+ │               │
+ NO              YES
+ │               │
+ ↓               ↓
+UNKNOWN     Maritime Object
+                 ↓
+        ┌────────┴────────┐
+        ↓                 ↓
+     VESSEL        Non-vessel object
+        ↓                 ↓
+ CLASSIFY        Platform / Barge /
+                 Buoy / Other
+
+---
+
 ## Confidence Framework
 
 | **Confidence** | **Analytical Interpretation** |
