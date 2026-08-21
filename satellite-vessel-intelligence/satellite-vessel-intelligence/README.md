@@ -218,6 +218,15 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 ### Assessment Sidebar — Key
 
+<table>
+<tr>
+<td width="55%">
+
+<img src="assets/ssidebar.png" width="100%"/>
+
+</td>
+<td width="45%" valign="top">
+
 | Field | What it captures | Example |
 |---|---|---|
 | **Class** | Broad vessel or maritime-object category | `Tanker` |
@@ -227,6 +236,10 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 | **What this is** | Determines whether the detected object is a vessel or another maritime structure | `Vessel` |
 | **Status** | Observed operational state at the time of imagery | `Stationary` |
 | **Confidence** | Analyst's confidence in the classification assessment | `High` |
+
+</td>
+</tr>
+</table>
 
 ---
 
