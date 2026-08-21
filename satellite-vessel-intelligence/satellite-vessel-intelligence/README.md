@@ -149,7 +149,11 @@ LPG carriers can display distinctive cargo-containment architecture — but not 
 **Core analytical lesson:** A clear cargo deck alone does not establish an oil-tanker classification.
 
 > **Intelligence Assessment**
-> [Insert evidence-based conclusion from actual imagery]
+
+>
+> The observed cargo-containment structures, specialized deck configuration and vessel proportions are consistent with a **gas carrier arrangement**. The available imagery supports an **LPG carrier hypothesis**, although the specific cargo type and vessel identity cannot be established from structural characteristics alone.
+>
+> **Classification confidence: HIGH · Identity confidence: LOW**
 
 Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
 
@@ -197,7 +201,10 @@ Container Vessel
 5. **Hull proportions** — a higher L/B ratio than the tanker and LPG cases is consistent with typical container-vessel hull forms.
 
 > **Intelligence Assessment**
-> [Insert evidence-based conclusion from actual imagery]
+>
+> The observed repetitive container-stack geometry, cargo arrangement and deck configuration are consistent with a **container vessel**. Where deck cranes are visible, their presence provides additional supporting evidence for the classification. The available imagery supports a **container ship assessment**, although vessel identity cannot be established from structural characteristics alone.
+>
+> **Classification confidence: HIGH · Identity confidence: LOW**
 
 Full write-up: [`case-studies/container-vessel.md`](case-studies/container-vessel.md)
 
