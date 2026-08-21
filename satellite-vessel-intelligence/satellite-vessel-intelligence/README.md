@@ -234,9 +234,14 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
-<div align="center">
+<table>
+<tr>
+<td width="55%">
 
-<img src="assets/ssidebar.png" />
+<img src="assets/ssidebar.png" width="100%"/>
+
+</td>
+<td width="45%" valign="top">
 
 **Class**
 
