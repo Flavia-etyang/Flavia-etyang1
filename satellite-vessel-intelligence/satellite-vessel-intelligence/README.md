@@ -236,7 +236,11 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
 
+<div align="center">
+
 <img src="assets/ssidebar.png" width="40%"/>
+
+</div>
 
 | Field | What it captures | Example |
 |---|---|---|
