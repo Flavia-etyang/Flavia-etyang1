@@ -390,13 +390,9 @@ Container Vessel
 Forward-most detected point → aft-most detected point.
 298 ± 6 m
 
-**Beam/Width**
+**Beam**
 Maximum detected vessel breadth.
 32.5 ± 2 m
-
-**L/B Ratio**
-L/B Ratio = Length ÷ Beam
-9.17
 
 **Classification Confidence**
 `HIGH`
@@ -485,6 +481,10 @@ The assigned confidence level reflects the **quality, completeness, and converge
 
 > **Intelligence principle:** Confidence is not determined by a single image characteristic or by analyst certainty alone. It reflects the **combined strength, reliability, and convergence of observable and corroborating evidence**. Where evidence is incomplete or conflicting, confidence is reduced accordingly.
 
+> **Classification confidence ≠ identity confidence.**
+>
+> An object may be confidently classified by its observable structure while remaining unresolved at the individual-vessel identity level.
+
 ---
 
 ## 6 - Evidence vs. Inference
@@ -549,6 +549,26 @@ The objective is to produce a **structured vessel assessment supported by observ
 
 ```text
 DETECT - OBSERVE - IDENTIFY - MEASURE - CLASSIFY - VALIDATE - ASSESS - CONFIDENCE
+
+---
+
+# Technicals
+
+```text
+Python
+→ measurement calculations
+→ structured assessments
+→ data transformation
+
+SQL
+→ querying vessel datasets
+→ filtering / joining maritime records
+→ analytical extraction
+
+GIS
+→ spatial measurement
+→ geographic context
+→ imagery interpretation
 
 
         │
