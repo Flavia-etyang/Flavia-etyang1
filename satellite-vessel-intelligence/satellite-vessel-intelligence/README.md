@@ -240,6 +240,31 @@ The classification hierarchy separates the **broad vessel class** from the **spe
 <tr>
 <td width="50%" valign="top">
 
+**Class**
+
+<table>
+<tr>
+<td width="55%">
+
+<img src="assets/class.jpg" width="100%"/>
+
+</td>
+<td width="45%" valign="top">
+
+The various classes include:
+- Cargo
+- Tanker
+- Passenger
+- Pleasure
+- Fishing
+- Service / Workboat
+- Naval / Government
+- Other
+
+</td>
+</tr>
+</table>
+
 **Sub-Class**
 
 <table>
@@ -273,32 +298,7 @@ Examples include:
 
 </td>
 <td width="50%" valign="top">
-
-**Class**
-
-<table>
-<tr>
-<td width="55%">
-
-<img src="assets/class.jpg" width="100%"/>
-
-</td>
-<td width="45%" valign="top">
-
-The various classes include:
-- Cargo
-- Tanker
-- Passenger
-- Pleasure
-- Fishing
-- Service / Workboat
-- Naval / Government
-- Other
-
-</td>
-</tr>
-</table>
-
+    
 </td>
 </tr>
 </table>
