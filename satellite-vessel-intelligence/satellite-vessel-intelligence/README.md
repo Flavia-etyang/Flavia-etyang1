@@ -218,7 +218,7 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 ### Assessment Sidebar — Key
 
-<img src="assets/ssidebar.png" width="100%"/>
+<img src="assets/ssidebar.png" width="50%"/>
 
 | Field | What it captures | Example |
 |---|---|---|
