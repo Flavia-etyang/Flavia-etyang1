@@ -236,30 +236,9 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
-**Class**
-
 <table>
 <tr>
-<td width="45%" valign="top">
-
-The various classes include:
-- Cargo
-- Tanker
-- Passenger
-- Pleasure
-- Fishing
-- Service / Workboat
-- Naval / Government
-- Other
-
-</td>
-<td width="55%">
-
-<img src="assets/class.jpg" width="100%"/>
-
-</td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
 **Sub-Class**
 
@@ -287,6 +266,38 @@ Examples include:
 - Tug
 - Offshore Support Vessel
 - Yacht / Recreational Vessel
+
+</td>
+</tr>
+</table>
+
+</td>
+<td width="50%" valign="top">
+
+**Class**
+
+<table>
+<tr>
+<td width="55%">
+
+<img src="assets/class.jpg" width="100%"/>
+
+</td>
+<td width="45%" valign="top">
+
+The various classes include:
+- Cargo
+- Tanker
+- Passenger
+- Pleasure
+- Fishing
+- Service / Workboat
+- Naval / Government
+- Other
+
+</td>
+</tr>
+</table>
 
 </td>
 </tr>
