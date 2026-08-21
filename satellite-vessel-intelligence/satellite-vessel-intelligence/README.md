@@ -236,13 +236,13 @@ The classification hierarchy separates the **broad vessel class** from the **spe
 
 <div align="center">
 
-<img src="assets/ssidebar.png" width="100%" />
+<img src="assets/ssidebar.png" />
 
 **Class**
 
 <div align="center">
 
-<img src="assets/class.jpg" width="100%" />
+<img src="assets/class.jpg" />
 
 - Cargo
 - Tanker
@@ -257,7 +257,7 @@ The classification hierarchy separates the **broad vessel class** from the **spe
 
 <div align="center">
 
-<img src="assets/subclass.jpg" width="100%" />
+<img src="assets/subclass.jpg" />
 
 Examples include:
 
