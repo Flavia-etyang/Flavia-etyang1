@@ -218,6 +218,8 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 ### Assessment Sidebar — Key
 
+The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
+
 <img src="assets/ssidebar.png" width="40%"/>
 
 | Field | What it captures | Example |
@@ -311,20 +313,13 @@ The hierarchy is intentional:
 
 Classification should be based on **converging structural evidence**, rather than a single visual feature.
 
-
-The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
-
-<div align="left">
-
-<img src="assets/class2.jpg" />
-
 ---
 
 ## Classification Comparison
 
 Classification is comparative: it is based on converging evidence, not a single visual cue.
 
-<div align="center">
+<div align="left">
 
 <img src="assets/classific.jpg" alt="Classification comparison table — crude oil tanker vs LPG tanker vs container ship" width="100%" />
 
