@@ -18,8 +18,6 @@
 
 Overhead imagery provides observable evidence of a vessel's presence, geometry, and dimensions — its deck configuration, cargo arrangement, and superstructure. Read together, these observations support a broad vessel-class hypothesis, and, where independent maritime data is available, a more specific assessment.
 
-Overhead imagery provides observable evidence of vessel presence, geometry and dimensions, as well as deck configuration, cargo arrangement and superstructure. These observations can support a vessel-class hypothesis and, where independent maritime data is available, a more specific assessment.
-
 ---
 
 ## Analytical Workflow
@@ -73,10 +71,10 @@ This portfolio demonstrates analysis across three visual perspectives. Placehold
 Tanker- Likely Crude Oil Tanker
 
 **Estimated Length**
-182 ± 5 m
+182 m
 
 **Estimated Beam**
-29 ± 2 m
+29 m
 
 **Classification Confidence**
 `HIGH`
@@ -102,7 +100,8 @@ None of these features is individually conclusive. Vessel configurations vary, a
 >
 > The observed deck configuration, longitudinal piping and aft superstructure are consistent with a tanker arrangement. The available imagery supports a **crude oil tanker hypothesis**.
 >
-> **Classification confidence: HIGH ·
+> **Class: Tanker — HIGH
+> **Subclass: Likely Crude Oil Tanker — MEDIUM
 
 Full write-up: [`case-studies/tanker.md`](case-studies/tanker.md)
 
@@ -123,10 +122,10 @@ Full write-up: [`case-studies/tanker.md`](case-studies/tanker.md)
 LPG Carrier
 
 **Estimated Length**
-186 ± 5 m
+186 m
 
 **Estimated Beam**
-45.5 ± 2 m
+45.5 m
 
 **Classification Confidence**
 `MEDIUM`
@@ -138,7 +137,7 @@ LPG Carrier
 </tr>
 </table>
 
-LPG carriers can display distinctive cargo-containment architecture — but not all LPG carriers look alike. Containment arrangements include **cylindrical tanks**, **spherical tanks** (illustrated here, Moss-type), and **other containment arrangements** such as membrane systems that sit flush within the hull. A classification hypothesis should specify which pattern was observed rather than treating "gas carrier" as one visual template.
+LPG carriers can display distinctive cargo-containment architecture — but not all LPG carriers look alike. Containment arrangements include **cylindrical tanks**, **spherical pressurized cargo tanks**, and **other containment arrangements**. A classification hypothesis should specify which pattern was observed rather than treating "gas carrier" as one visual template.
 
 **Core analytical lesson:** A clear cargo deck alone does not establish an oil-tanker classification.
 
@@ -147,7 +146,7 @@ LPG carriers can display distinctive cargo-containment architecture — but not 
 >
 > The observed cargo-containment structures, specialized deck configuration and vessel proportions are consistent with a **gas carrier arrangement**. The available imagery supports an **LPG carrier hypothesis**.
 >
-> **Classification confidence: MEDIUM ·
+> **Classification confidence: MEDIUM 
 
 Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
 
@@ -168,13 +167,10 @@ Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
 Container Vessel
 
 **Estimated Length**
-298 ± 6 m
+298 m
 
 **Estimated Beam**
-32.5 ± 2 m
-
-**L/B Ratio**
-9.17
+32.5  m
 
 **Classification Confidence**
 `HIGH`
@@ -198,7 +194,7 @@ Container Vessel
 >
 > The observed repetitive container-stack geometry, cargo arrangement and deck configuration are consistent with a **container vessel**. Where deck cranes are visible, their presence provides additional supporting evidence for the classification. The available imagery supports a **container ship assessment**.
 
-> **Classification confidence: HIGH ·
+> **Classification confidence: HIGH 
 
 Full write-up: [`case-studies/container-vessel.md`](case-studies/container-vessel.md)
 
@@ -426,7 +422,7 @@ Potential supporting indicators may include:
 - Berthing or mooring configuration
 - Anchorage context
 - Absence of meaningful movement across time-separated observations
-- AIS-derived stationary status, where available
+- Imagery-derived assessment and AIS-derived status are separate evidence streams.
 
 **Unknown**
 
@@ -457,24 +453,24 @@ Applied where:
 
 #### - Confidence Determination
 
-The assigned confidence level reflects the **quality, completeness, and convergence of available evidence** at the time of assessment. It is determined by the following factors:
+The assigned confidence level reflects the **quality, completeness, and convergence of available evidence** at the time of assessment.
 
-- **Image source / sensor type** — EO/optical, SAR, aerial, multispectral, or other imagery and the degree to which the sensor supports the required interpretation.
-- **Spatial resolution / GSD** — the level of detail available to distinguish hull boundaries, deck structures, cargo arrangements, and other classification indicators.
-- **Image quality** — sharpness, contrast, noise, compression, atmospheric effects, and overall visual clarity.
-- **Vessel orientation** — the vessel's angle relative to the sensor and image frame, particularly where orientation affects dimension estimation or visibility of structural features.
-- **Object visibility** — the proportion of the vessel or object that is unobstructed and observable.
-- **Occlusion** — obstruction caused by other vessels, port infrastructure, environmental features, clouds, shadows, or other objects.
-- **Shadow and wake effects** — whether shadows or wake patterns obscure or distort the apparent vessel footprint and structural boundaries.
-- **Observable structural features** — the visibility and distinctiveness of features such as hull geometry, deck layout, piping, cranes, cargo containment, container stacks, bridge/superstructure, masts, and other deck equipment.
-- **Classification distinctiveness** — how strongly the observed features differentiate the assessed class/subclass from visually similar vessel types.
-- **Measurement reliability** — confidence in the vessel's measurable boundaries, scale, georeferencing, and resulting length/beam estimates.
-- **Temporal context** — whether the imagery timestamp and, where available, sequential observations provide sufficient context for assessing vessel status or behavior.
-- **Corroborating data** — consistency with independent sources such as AIS, vessel particulars, ownership records, port information, or other maritime datasets.
-- **Cross-source consistency** — the degree to which independent observations support the same vessel assessment.
-- **Conflicting evidence** — the presence of visual or external evidence that contradicts the proposed classification or identity.
-
-> **Intelligence principle:** Confidence is not determined by a single image characteristic or by analyst certainty alone. It reflects the **combined strength, reliability, and convergence of observable and corroborating evidence**. Where evidence is incomplete or conflicting, confidence is reduced accordingly.
+> **HIGH**
+>Multiple independent structural indicators.
+>Key classification features clearly observable.
+>No significant contradictory evidence.
+>Measurement boundaries sufficiently reliable.
+>Supporting external data, where available, is consistent.
+> **MEDIUM**
+>Classification is supported by multiple indicators.
+>One or more important features are ambiguous or partially obscured.
+>Alternative classifications remain plausible.
+>External validation is limited or unavailable.
+> **LOW**
+>Few distinctive indicators.
+>Significant occlusion/resolution limitations.
+>Competing classifications remain plausible.
+>Evidence is conflicting or insufficient.
 
 > **Classification confidence ≠ identity confidence.**
 >
@@ -493,6 +489,18 @@ A vessel assessment should maintain a clear distinction between **what is direct
 | **Validation** | What independent evidence supports or challenges the interpretation? |
 | **Assessment** | What conclusion is justified by the available evidence? |
 | **Confidence** | How strong, reliable, and convergent is the supporting evidence? |
+
+ **Assumptions**
+
+Why?
+
+Because some analytical conclusions depend on assumptions that aren't directly observable.
+
+Example:
+- **Observation**: spherical structures visible on deck.
+- **Inference**: pressurized-gas containment.
+- **Assumption**: structures are cargo tanks rather than another deck installation.
+- **Assessment**: likely LPG carrier.
 
 #### Worked Example
 
@@ -516,7 +524,21 @@ The observed configuration may indicate liquid-cargo handling infrastructure.
 
 **Validation**
 
-Compare the observed structure against available vessel particulars, AIS information, external vessel databases, or other independent maritime data.
+*Spatial validation*
+
+Does the reported vessel position correspond to the observed object?
+
+*Temporal validation*
+
+Was the vessel reported at that location close enough to the imagery acquisition time?
+
+*Structural validation*
+
+Do vessel particulars match the observed dimensions/configuration?
+
+*Identity validation*
+
+Does the evidence support a specific vessel identity?
 
 ↓
 
@@ -548,6 +570,31 @@ DETECT → OBSERVE → IDENTIFY → MEASURE → CLASSIFY → VALIDATE → ASSESS
 
 ---
 
+## 08 - Limitations & Failure Modes
+
+> **Analytical Limitations**
+> -Resolution may prevent discrimination between visually similar subclasses.
+> -Vessel orientation affects measurement reliability.
+> -Occlusion can hide classification-critical structures.
+> -Single-frame imagery cannot reliably establish movement.
+> -Hull proportions alone are not sufficiently distinctive for subclass identification.
+> -AIS may be unavailable, delayed or inconsistent.
+> -Structural appearance alone cannot establish individual-vessel identity.
+> -Image-derived dimensions are estimates, not authoritative vessel particulars.
+> -Synthetic/illustrative imagery should not be interpreted as operational satellite evidence.
+
+**For Example:**
+
+**Failure Modes**
+
+**False tanker classification** - Clear deck + aft superstructure interpreted as tanker without sufficient cargo-handling evidence.
+
+**False LPG classification** - Deck structures mistaken for cargo containment.
+
+**False container classification** - Port infrastructure or stacked equipment mistaken for containers.
+
+---
+
 ## 08 - Analytical Implementation
 
 The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
@@ -557,8 +604,21 @@ Current implementation demonstrates structured analytical reasoning and image-de
 
 ```
 
-The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
+Image
+  ↓
+Annotation
+  ↓
+Pixel measurement
+  ↓
+Scale conversion
+  ↓
+Structured JSON / CSV
+  ↓
+Vessel assessment
+  ↓
+Maritime data correlation
 
+The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
 
 ---
 
