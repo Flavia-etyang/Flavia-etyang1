@@ -246,14 +246,8 @@ The purpose is to move from:
 
 The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
 
-<table>
-<tr>
-<td width="55%">
+<img src="assets/class2.jpg" />
 
-<img src="assets/class.jpg" width="30%" />
-
-</td>
-<td width="45%" valign="top">
 
 **Vessel Class**
 
