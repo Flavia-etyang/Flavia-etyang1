@@ -27,10 +27,13 @@ Overhead imagery provides observable evidence of vessel presence, geometry and d
 ```mermaid
 flowchart TD
     A[OVERHEAD IMAGERY] --> B[01 · OBSERVE]
-    B --> C[02 · MEASURE]
-    C --> D[03 · CLASSIFY]
-    D --> E[04 · VALIDATE]
-    E --> F[05 · ASSESS]
+    B --> C[02 · IDENTIFY OBJECT]
+    C --> D[03 · MEASURE]
+    D --> E[04 · CLASSIFY]
+    E --> F[05 · VALIDATE]
+    F --> G[06 · ASSESS]
+    G --> H[07 · CONFIDENCE]
+    
 ```
 
 | Stage | Description |
