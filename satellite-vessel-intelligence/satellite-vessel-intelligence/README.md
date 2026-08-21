@@ -483,7 +483,7 @@ The tanker classification is strengthened where multiple independent indicators 
 
 **Confidence**
 
-Confidence increases where the available evidence is clear, distinctive, independently corroborated, and free from significant conflicting indicators.
+Confidence increases where evidence is sufficiently clear, distinctive, independently corroborated, and internally consistent, while remaining appropriately constrained by unresolved uncertainty.
 
 > **Analytical principle: A hypothesis is never presented as an observed fact.**
 
@@ -493,24 +493,16 @@ Full discussion: [`methodology/evidence-vs-inference.md`](methodology/evidence-v
 
 ## 6 - Intelligence Assessment
 
+## 6 - Intelligence Assessment
+
 The objective of satellite vessel analysis is not simply to detect an object or assign a vessel class.
 
 The objective is to produce a **structured vessel assessment supported by observable evidence, measurable characteristics, and independent validation where available**.
 
-The analytical workflow applied throughout this case study can be summarized as:
-
 ```text
-DETECT - OBSERVE - MEASURE - CLASSIFY - VALIDATE - ASSESS - ASSIGN CONFIDENCE
+DETECT - OBSERVE - IDENTIFY - MEASURE - CLASSIFY - VALIDATE - ASSESS - CONFIDENCE
 
-```
-EO / Optical Imagery
-SAR
-GIS / Spatial Measurement
-Vessel Classification
-AIS
-Vessel Particulars
-Python
-Structured Data
+
         │
         ▼
 MARITIME VESSEL INTELLIGENCE
