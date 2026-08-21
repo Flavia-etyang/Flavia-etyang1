@@ -226,36 +226,95 @@ A vessel's structural class can often be assessed directly from imagery with hig
 
 ---
 
-## Dimension Estimation
+## Vessel Assessment Interface
 
-**Length Overall (LOA)** — forward-most point → aft-most point.
+The annotation layer is paired with a structured **vessel assessment sidebar**.
 
-**Beam** — maximum vessel breadth.
+The purpose is to move from:
 
-**L/B Ratio** — `LOA ÷ Beam`
+**Image Detection → Measurement → Object Identification → Vessel Classification → Status → Confidence**
 
-Where Ground Sampling Distance (GSD) is known:
+The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
 
-```
-Physical distance = Pixel distance × Ground Sampling Distance (GSD)
-```
+> **Interface concept:** The visual below represents the intended assessment workflow. In an operational implementation, the classification fields would function as selectable controls and the length/beam values would update automatically as the bounding box is adjusted.
 
-Estimates are reported with explicit uncertainty — `182 ± 5 m`, never false precision such as `182.000 m`. Uncertainty widens with coarser image resolution, non-perpendicular vessel orientation, uncertain georeferencing, or partial occlusion. Full discussion: [`methodology/dimension-estimation.md`](methodology/dimension-estimation.md).
+<p align="center">
+  <img src="assets/vessel-assessment/sidebar-assessment.svg" alt="Vessel assessment sidebar showing classification, measurements, object type, vessel status and confidence" width="900">
+</p>
+
+### Assessment Sidebar — Key
+
+| Field | What it captures | Example |
+|---|---|---|
+| **Class** | Broad vessel or maritime-object category | `Tanker` |
+| **Subclass** | More specific vessel type | `Crude Oil Tanker` |
+| **Length** | Estimated longitudinal dimension derived from the annotation | `182 ± 5 m` |
+| **Width / Beam** | Estimated maximum breadth derived from the annotation | `32 ± 2 m` |
+| **What this is** | Determines whether the detected object is a vessel or another maritime structure | `Vessel` |
+| **Status** | Observed operational state at the time of imagery | `Stationary` |
+| **Confidence** | Analyst's confidence in the classification assessment | `High` |
 
 ---
 
-## Bounding Box Explanation
+### 01 — Class & Subclass
 
-The bounding rectangle used during measurement is an **annotation and measurement aid** — it should not automatically be interpreted as the vessel's exact physical footprint. Its accuracy is limited by:
+The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
-- Vessel rotation relative to the image axes
-- Wake, which can extend the apparent footprint
-- Shadow, which can distort apparent edges
-- Image resolution
-- Partial occlusion
+**Class**
 
-This portfolio treats the bounding box as a tool for structured measurement, not as an automatic ground truth of vessel shape.
+- Cargo
+- Tanker
+- Passenger
+- Pleasure
+- Fishing
+- Service / Workboat
+- Naval / Government
+- Other
 
+**Subclass**
+
+Examples include:
+
+- General Cargo
+- Bulk Carrier
+- Container Ship
+- Crude Oil Tanker
+- Product Tanker
+- Chemical Tanker
+- LPG Carrier
+- LNG Carrier
+- Passenger Ferry
+- Cruise Ship
+- Fishing Vessel
+- Tug
+- Offshore Support Vessel
+- Yacht / Recreational Vessel
+
+The hierarchy is intentional:
+
+> **Class = broad category**  
+> **Subclass = specific vessel type**
+
+Classification should be based on **converging structural evidence**, rather than a single visual feature.
+
+---
+
+### 02 — Vessel Measurements
+
+The vessel annotation provides the geometric basis for dimension estimation.
+
+**Length**
+
+Forward-most detected point → aft-most detected point.
+
+**Width / Beam**
+
+Maximum detected vessel breadth.
+
+**L/B Ratio**
+
+```text
+L/B Ratio = Length ÷ Beam
 ---
 
 ## Evidence vs. Inference
