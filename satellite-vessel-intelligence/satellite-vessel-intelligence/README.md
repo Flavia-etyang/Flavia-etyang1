@@ -574,6 +574,21 @@ GIS
 → imagery interpretation
 
 ```
+
+The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
+
+Imagery
+↓
+Structured observations
+↓
+Measurements
+↓
+Vessel attributes
+↓
+AIS / maritime data
+↓
+Analytical output
+
 ---
 
 <div align="left">
