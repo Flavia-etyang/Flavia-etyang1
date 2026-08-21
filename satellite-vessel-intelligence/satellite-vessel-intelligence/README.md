@@ -371,7 +371,7 @@ Before assigning a vessel class or subclass, the first assessment is to determin
 
 Overhead maritime imagery may contain vessels alongside other objects and structures such as offshore platforms, buoys, barges, floating infrastructure, or ambiguous objects. Establishing the object type therefore forms the first decision point in the classification workflow.
 
-### Object-Type Assessment
+# Object-Type Assessment
 
 | **Selection** | **Analytical Interpretation** |
 |---|---|
@@ -387,7 +387,7 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 
 
 
-### 04 — Confidence framework
+## 04 — Confidence framework
 
 
 | **Confidence** | **Analytical Interpretation** |
@@ -398,7 +398,7 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 
 > **Confidence reflects the strength and convergence of available evidence — not analyst certainty alone.**
 
-### Confidence Dimensions
+# Confidence Dimensions
 
 | **Assessment** | **What it measures** |
 |---|---|
@@ -407,9 +407,27 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 
 **Classification confidence ≠ identity confidence.**
 
-```
+### Confidence Determination
 
-A vessel's structural class can often be assessed directly from imagery with high confidence, while its specific identity — name, IMO number, owner, flag — typically requires independent validation (AIS, registry data, vessel particulars). These are kept as separate analytical dimensions throughout this portfolio. Full discussion: [`methodology/confidence-framework.md`](methodology/confidence-framework.md).
+The assigned confidence level reflects the **quality, completeness, and convergence of available evidence** at the time of assessment. It is determined by the following factors:
+
+- **Image source / sensor type** — EO/optical, SAR, aerial, multispectral, or other imagery and the degree to which the sensor supports the required interpretation.
+- **Spatial resolution / GSD** — the level of detail available to distinguish hull boundaries, deck structures, cargo arrangements, and other classification indicators.
+- **Image quality** — sharpness, contrast, noise, compression, atmospheric effects, and overall visual clarity.
+- **Vessel orientation** — the vessel's angle relative to the sensor and image frame, particularly where orientation affects dimension estimation or visibility of structural features.
+- **Object visibility** — the proportion of the vessel or object that is unobstructed and observable.
+- **Occlusion** — obstruction caused by other vessels, port infrastructure, environmental features, clouds, shadows, or other objects.
+- **Shadow and wake effects** — whether shadows or wake patterns obscure or distort the apparent vessel footprint and structural boundaries.
+- **Observable structural features** — the visibility and distinctiveness of features such as hull geometry, deck layout, piping, cranes, cargo containment, container stacks, bridge/superstructure, masts, and other deck equipment.
+- **Classification distinctiveness** — how strongly the observed features differentiate the assessed class/subclass from visually similar vessel types.
+- **Measurement reliability** — confidence in the vessel's measurable boundaries, scale, georeferencing, and resulting length/beam estimates.
+- **Temporal context** — whether the imagery timestamp and, where available, sequential observations provide sufficient context for assessing vessel status or behavior.
+- **Corroborating data** — consistency with independent sources such as AIS, vessel particulars, ownership records, port information, or other maritime datasets.
+- **Cross-source consistency** — the degree to which independent observations support the same vessel assessment.
+- **Conflicting evidence** — the presence of visual or external evidence that contradicts the proposed classification or identity.
+
+> **Intelligence principle:** Confidence is not determined by a single image characteristic or by analyst certainty alone. It reflects the **combined strength, reliability, and convergence of observable and corroborating evidence**. Where evidence is incomplete or conflicting, confidence is reduced accordingly.
+
 
 ---
 
