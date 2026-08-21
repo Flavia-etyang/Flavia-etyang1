@@ -195,37 +195,6 @@ Full write-up: [`case-studies/container-vessel.md`](case-studies/container-vesse
 
 ---
 
-## Classification Comparison
-
-Classification is comparative: it is based on converging evidence, not a single visual cue.
-
-<div align="center">
-
-<img src="assets/classific.jpg" alt="Classification comparison table — crude oil tanker vs LPG tanker vs container ship" width="100%" />
-
-</div>
-
----
-
-## Confidence Framework
-
-| Level | Meaning |
-|---|---|
-| **HIGH** | Multiple independent visual indicators converge and image quality is sufficient. |
-| **MEDIUM** | Classification is plausible but evidence is partially obscured or ambiguous. |
-| **LOW** | Evidence is insufficient, conflicting, or limited. |
-
-**Classification confidence ≠ identity confidence.**
-
-```
-Classification Confidence: HIGH
-Identity Confidence:       LOW
-```
-
-A vessel's structural class can often be assessed directly from imagery with high confidence, while its specific identity — name, IMO number, owner, flag — typically requires independent validation (AIS, registry data, vessel particulars). These are kept as separate analytical dimensions throughout this portfolio. Full discussion: [`methodology/confidence-framework.md`](methodology/confidence-framework.md).
-
----
-
 ## Vessel Assessment Interface
 
 The annotation layer is paired with a structured **vessel assessment sidebar**.
@@ -299,6 +268,19 @@ Classification should be based on **converging structural evidence**, rather tha
 
 ---
 
+## Classification Comparison
+
+Classification is comparative: it is based on converging evidence, not a single visual cue.
+
+<div align="center">
+
+<img src="assets/classific.jpg" alt="Classification comparison table — crude oil tanker vs LPG tanker vs container ship" width="100%" />
+
+</div>
+
+---
+
+
 ### 02 — Vessel Measurements
 
 The vessel annotation provides the geometric basis for dimension estimation.
@@ -315,6 +297,26 @@ Maximum detected vessel breadth.
 
 ```text
 L/B Ratio = Length ÷ Beam
+
+---
+
+## Confidence Framework
+
+| Level | Meaning |
+|---|---|
+| **HIGH** | Multiple independent visual indicators converge and image quality is sufficient. |
+| **MEDIUM** | Classification is plausible but evidence is partially obscured or ambiguous. |
+| **LOW** | Evidence is insufficient, conflicting, or limited. |
+
+**Classification confidence ≠ identity confidence.**
+
+```
+Classification Confidence: HIGH
+Identity Confidence:       LOW
+```
+
+A vessel's structural class can often be assessed directly from imagery with high confidence, while its specific identity — name, IMO number, owner, flag — typically requires independent validation (AIS, registry data, vessel particulars). These are kept as separate analytical dimensions throughout this portfolio. Full discussion: [`methodology/confidence-framework.md`](methodology/confidence-framework.md).
+
 ---
 
 ## Evidence vs. Inference
