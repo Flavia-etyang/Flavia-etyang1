@@ -265,6 +265,9 @@ The various classes include:
 </tr>
 </table>
 
+</td>
+<td width="50%" valign="top">
+
 **Sub-Class**
 
 <table>
@@ -297,11 +300,9 @@ Examples include:
 </table>
 
 </td>
-<td width="50%" valign="top">
-    
-</td>
 </tr>
 </table>
+
 
 The hierarchy is intentional:
 
