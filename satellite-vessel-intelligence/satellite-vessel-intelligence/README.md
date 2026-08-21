@@ -365,7 +365,7 @@ L/B Ratio = Length ÷ Beam
 
 ---
 
-## What This Is
+## 03 — What This Is
 
 Before assigning a vessel class or subclass, the first assessment is to determine **what the detected object represents**.
 
@@ -382,10 +382,12 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 | **Other** | A maritime object that does not sufficiently conform to the defined categories but can still be positively distinguished from background or environmental features. |
 | **Unknown** | The available imagery does not provide sufficient evidence to determine the object's type reliably. |
 
-> **Analytical principle:** Object identification precedes vessel classification. An ambiguous maritime object should not be forced into a vessel category simply because it appears on the water.
+
+**Analytical principle:** Object identification precedes vessel classification. An ambiguous maritime object should not be forced into a vessel category simply because it appears on the water.
 
 
-### Confidence framework
+
+### 04 — Confidence framework
 
 
 | **Confidence** | **Analytical Interpretation** |
