@@ -220,13 +220,13 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 <table>
 <tr>
-<td width="65%">
+<td width="100%">
 
 <img src="assets/ssidebar.png" width="100%"/>
 
 </td>
 
-<td width="35%" valign="top">
+<td width="75%" valign="top">
 
 | Field | What it captures | Example |
 |---|---|---|
