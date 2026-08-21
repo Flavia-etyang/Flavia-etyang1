@@ -6,7 +6,7 @@
 
 **Detect · Measure · Classify · Validate**
 
-*Transforming overhead imagery into structured vessel intelligence through visual analysis, dimension estimation and vessel classification.*
+*Transforming overhead imagery into structured vessel intelligence through observation, measurement, classification and independent validation.*
 
 </div>
 
@@ -70,16 +70,13 @@ This portfolio demonstrates analysis across three visual perspectives. Placehold
 <td width="45%" valign="top">
 
 **Vessel Class**
-Crude Oil Tanker
+Tanker- Likely Crude Oil Tanker
 
 **Estimated Length**
 182 ± 5 m
 
 **Estimated Beam**
 29 ± 2 m
-
-**L/B Ratio**
-6.28
 
 **Classification Confidence**
 `HIGH`
@@ -91,7 +88,7 @@ Crude Oil Tanker
 </tr>
 </table>
 
-**Why this may be classified as a crude oil tanker:**
+**Why this may be classified as a oil tanker:**
 
 1. **Deck piping** — longitudinal transfer lines are visible along the deck, which supports the assessment of liquid cargo-handling infrastructure.
 2. **Clear cargo deck** — the absence of container stacks or discrete tank domes is consistent with bulk-liquid rather than containerized cargo.
@@ -131,9 +128,6 @@ LPG Carrier
 **Estimated Beam**
 45.5 ± 2 m
 
-**L/B Ratio**
-4.09
-
 **Classification Confidence**
 `MEDIUM`
 
@@ -153,7 +147,7 @@ LPG carriers can display distinctive cargo-containment architecture — but not 
 >
 > The observed cargo-containment structures, specialized deck configuration and vessel proportions are consistent with a **gas carrier arrangement**. The available imagery supports an **LPG carrier hypothesis**.
 >
-> **Classification confidence: HIGH ·
+> **Classification confidence: MEDIUM ·
 
 Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
 
@@ -271,6 +265,7 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 | **Other** | A maritime object that does not sufficiently conform to the defined categories but can still be positively distinguished from background or environmental features. |
 | **Unknown** | The available imagery does not provide sufficient evidence to determine the object's type reliably. |
 
+**Unknown is an analytical outcome, not an analytical failure**
 
 **Analytical principle:** Object identification precedes vessel classification. An ambiguous maritime object should not be forced into a vessel category simply because it appears on the water.
 
@@ -403,7 +398,7 @@ Maximum detected vessel breadth.
 
 ---
 
-## 4 -Vessel Status Assessment
+## 04 -Vessel Status Assessment
 
 Overhead imagery can also support an assessment of whether a vessel was underway or stationary at the time of observation. As with classification, this is a judgment supported by available evidence — not a default assumption.
 
@@ -487,7 +482,7 @@ The assigned confidence level reflects the **quality, completeness, and converge
 
 ---
 
-## 6 - Evidence vs. Inference
+## 06 - Evidence vs. Inference
 
 A vessel assessment should maintain a clear distinction between **what is directly observed**, **what is inferred from those observations**, and **what can be independently validated**.
 
@@ -541,7 +536,7 @@ Full discussion: [`methodology/evidence-vs-inference.md`](methodology/evidence-v
 
 ---
 
-## 6 - Intelligence Assessment
+## 07 - Intelligence Assessment
 
 The objective of satellite vessel analysis is not simply to detect an object or assign a vessel class.
 
@@ -553,41 +548,17 @@ DETECT → OBSERVE → IDENTIFY → MEASURE → CLASSIFY → VALIDATE → ASSESS
 
 ---
 
-## 7 - Technical Layer
+## 08 - Analytical Implementation
 
 The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
 
 ```text
-Python
-→ measurement calculations
-→ structured assessments
-→ data transformation
-
-SQL
-→ querying vessel datasets
-→ filtering / joining maritime records
-→ analytical extraction
-
-GIS
-→ spatial measurement
-→ geographic context
-→ imagery interpretation
+Current implementation demonstrates structured analytical reasoning and image-derived assessment. The workflow is designed for extension into Python-based measurement, SQL-based maritime data correlation and GIS-supported spatial analysis.
 
 ```
 
 The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
 
-Imagery
-↓
-Structured observations
-↓
-Measurements
-↓
-Vessel attributes
-↓
-AIS / maritime data
-↓
-Analytical output
 
 ---
 
