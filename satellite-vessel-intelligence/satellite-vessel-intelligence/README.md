@@ -218,6 +218,7 @@ The annotation layer is paired with a structured **vessel assessment sidebar**.
 
 <img src="assets/sidebar.jpg" width="100%" />
 
+</div>
 
 The purpose is to move from:
 
