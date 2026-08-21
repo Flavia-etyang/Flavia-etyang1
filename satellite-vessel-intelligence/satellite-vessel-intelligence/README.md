@@ -244,7 +244,7 @@ The classification hierarchy separates the **broad vessel class** from the **spe
 <tr>
 <td width="55%">
 
-<img src="assets/class.jpg" width="100%"/>
+<img src="assets/class.jpg" />
 
 </td>
 <td width="45%" valign="top">
