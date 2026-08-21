@@ -4,7 +4,7 @@
 
 # SATELLITE VESSEL INTELLIGENCE
 
-**Detect · Measure · Classify · Verify**
+**Detect · Measure · Classify · Validate**
 
 *Transforming overhead imagery into structured vessel intelligence through visual analysis, dimension estimation and vessel classification.*
 
@@ -18,7 +18,7 @@
 
 Overhead imagery provides observable evidence of a vessel's presence, geometry, and dimensions — its deck configuration, cargo arrangement, and superstructure. Read together, these observations support a broad vessel-class hypothesis, and, where independent maritime data is available, a more specific assessment.
 
-The objective is not simply to identify a vessel. **The objective is to extract defensible intelligence from observable evidence.**
+Overhead imagery provides observable evidence of vessel presence, geometry and dimensions, as well as deck configuration, cargo arrangement and superstructure. These observations can support a vessel-class hypothesis and, where independent maritime data is available, a more specific assessment.
 
 ---
 
