@@ -398,14 +398,6 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 
 > **Confidence reflects the strength and convergence of available evidence — not analyst certainty alone.**
 
-# Confidence Dimensions
-
-| **Assessment** | **What it measures** |
-|---|---|
-| **Classification Confidence** | How strongly the observable structural and contextual evidence supports the assigned vessel class/subclass. |
-| **Identity Confidence** | How strongly the available evidence supports linking the observed object to a specific known vessel or maritime entity. |
-
-**Classification confidence ≠ identity confidence.**
 
 ### Confidence Determination
 
