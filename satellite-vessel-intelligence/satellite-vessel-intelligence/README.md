@@ -249,7 +249,29 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 ---
 
-## 01 — Class & Sub-class
+## 01 — What This Is
+
+Before assigning a vessel class or subclass, the first assessment is to determine **what the detected object represents**.
+
+Overhead maritime imagery may contain vessels alongside other objects and structures such as offshore platforms, buoys, barges, floating infrastructure, or ambiguous objects. Establishing the object type therefore forms the first decision point in the classification workflow.
+
+#### - Object-Type Assessment
+
+| **Selection** | **Analytical Interpretation** |
+|---|---|
+| **Vessel** | A floating, self-propelled or non-self-propelled craft exhibiting sufficient hull and/or superstructure characteristics to support a vessel assessment. |
+| **Platform / Oil Rig** | A fixed or floating offshore installation whose structural configuration is inconsistent with a conventional vessel. |
+| **Barge** | A generally flat-bottomed or cargo-oriented floating structure, typically characterized by a broad deck and limited or absent conventional vessel superstructure. |
+| **Buoy** | A floating navigational, mooring, marking, or monitoring structure whose scale and configuration are inconsistent with a conventional vessel. |
+| **Other** | A maritime object that does not sufficiently conform to the defined categories but can still be positively distinguished from background or environmental features. |
+| **Unknown** | The available imagery does not provide sufficient evidence to determine the object's type reliably. |
+
+
+**Analytical principle:** Object identification precedes vessel classification. An ambiguous maritime object should not be forced into a vessel category simply because it appears on the water.
+
+---
+
+## 02 — Class & Sub-class
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
@@ -343,7 +365,7 @@ Classification is comparative: it is based on converging evidence, not a single 
 ---
 
 
-## 02 — Vessel Measurements
+## 03 — Vessel Measurements
 
 The vessel annotation provides the geometric basis for dimension estimation.
 
@@ -380,29 +402,52 @@ L/B Ratio = Length ÷ Beam
 
 ---
 
-## 03 — What This Is
+## 4 -Vessel Status Assessment
 
-Before assigning a vessel class or subclass, the first assessment is to determine **what the detected object represents**.
+Overhead imagery can also support an assessment of whether a vessel was underway or stationary at the time of observation. As with classification, this is a judgment supported by available evidence — not a default assumption.
 
-Overhead maritime imagery may contain vessels alongside other objects and structures such as offshore platforms, buoys, barges, floating infrastructure, or ambiguous objects. Establishing the object type therefore forms the first decision point in the classification workflow.
-
-#### - Object-Type Assessment
-
-| **Selection** | **Analytical Interpretation** |
+| Status | Analytical Interpretation |
 |---|---|
-| **Vessel** | A floating, self-propelled or non-self-propelled craft exhibiting sufficient hull and/or superstructure characteristics to support a vessel assessment. |
-| **Platform / Oil Rig** | A fixed or floating offshore installation whose structural configuration is inconsistent with a conventional vessel. |
-| **Barge** | A generally flat-bottomed or cargo-oriented floating structure, typically characterized by a broad deck and limited or absent conventional vessel superstructure. |
-| **Buoy** | A floating navigational, mooring, marking, or monitoring structure whose scale and configuration are inconsistent with a conventional vessel. |
-| **Other** | A maritime object that does not sufficiently conform to the defined categories but can still be positively distinguished from background or environmental features. |
-| **Unknown** | The available imagery does not provide sufficient evidence to determine the object's type reliably. |
+| **Sailing** | The vessel is assessed as underway based on observable indicators such as wake, position context, movement evidence, or corroborating time-series data. |
+| **Stationary** | The vessel appears stationary at the time of observation, including situations such as anchorage, berth, port waiting areas, or other static positions. |
+| **Unknown** | Available imagery does not provide sufficient evidence to reliably determine whether the vessel is moving or stationary. |
 
+#### - Evidence Considerations
 
-**Analytical principle:** Object identification precedes vessel classification. An ambiguous maritime object should not be forced into a vessel category simply because it appears on the water.
+**Sailing**
 
+Potential supporting indicators may include:
 
+- Visible wake or displacement pattern
+- Open-water position consistent with transit
+- Sequential imagery showing positional change
+- AIS or other time-series movement data, where available
 
-## 04 — Confidence framework
+**Stationary**
+
+Potential supporting indicators may include:
+
+- Berthing or mooring configuration
+- Anchorage context
+- Absence of meaningful movement across time-separated observations
+- AIS-derived stationary status, where available
+
+**Unknown**
+
+Applied where:
+
+- Only a single static image is available
+- Wake characteristics are inconclusive
+- Vessel position does not establish movement
+- Temporal or AIS corroboration is unavailable
+- Image quality prevents reliable interpretation
+
+> **Analytical principle**
+> A single image provides a snapshot, not a trajectory. Where movement cannot be demonstrated from imagery or corroborating temporal data, the appropriate assessment is **Unknown**, rather than assuming the vessel is sailing or stationary.
+
+---
+
+## 05 — Confidence framework
 
 
 | **Confidence** | **Analytical Interpretation** |
@@ -437,7 +482,7 @@ The assigned confidence level reflects the **quality, completeness, and converge
 
 ---
 
-## 5 - Evidence vs. Inference
+## 6 - Evidence vs. Inference
 
 A vessel assessment should maintain a clear distinction between **what is directly observed**, **what is inferred from those observations**, and **what can be independently validated**.
 
@@ -490,8 +535,6 @@ Confidence increases where evidence is sufficiently clear, distinctive, independ
 Full discussion: [`methodology/evidence-vs-inference.md`](methodology/evidence-vs-inference.md).
 
 ---
-
-## 6 - Intelligence Assessment
 
 ## 6 - Intelligence Assessment
 
