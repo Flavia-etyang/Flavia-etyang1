@@ -199,6 +199,10 @@ Full write-up: [`case-studies/container-vessel.md`](case-studies/container-vesse
 
 The annotation layer is paired with a structured **vessel assessment sidebar**.
 
+<div align="center">
+
+<img src="assets/sidebar.jpg" width="100%" />
+
 The purpose is to move from:
 
 **Image Detection → Measurement → Object Identification → Vessel Classification → Status → Confidence**
