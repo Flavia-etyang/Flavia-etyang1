@@ -384,32 +384,9 @@ Overhead maritime imagery may contain vessels alongside other objects and struct
 
 > **Analytical principle:** Object identification precedes vessel classification. An ambiguous maritime object should not be forced into a vessel category simply because it appears on the water.
 
-### Decision Logic
 
-```text
-DETECTED OBJECT
-      ↓
-Is sufficient structure visible?
-      ↓
- ┌───────────────┐
- │               │
- NO              YES
- │               │
- ↓               ↓
-UNKNOWN     Maritime Object
-                 ↓
-        ┌────────┴────────┐
-        ↓                 ↓
-     VESSEL        Non-vessel object
-        ↓                 ↓
- CLASSIFY        Platform / Barge /
-                 Buoy / Other
+### Confidence framework
 
-```text
-
----
-
-### 01 — Class & Subclass
 
 | **Confidence** | **Analytical Interpretation** |
 |---|---|
