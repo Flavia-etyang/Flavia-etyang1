@@ -236,19 +236,13 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
-<table>
-<tr>
-<td width="55%">
-
-<img src="assets/class.jpg" width="100%"/>
-
-</td>
-<td width="45%" valign="top">
-
 **Class**
 
-The various classes include:
+<table>
+<tr>
+<td width="45%" valign="top">
 
+The various classes include:
 - Cargo
 - Tanker
 - Passenger
@@ -257,6 +251,11 @@ The various classes include:
 - Service / Workboat
 - Naval / Government
 - Other
+
+</td>
+<td width="55%">
+
+<img src="assets/class.jpg" width="100%"/>
 
 </td>
 </tr>
@@ -273,10 +272,7 @@ The various classes include:
 </td>
 <td width="45%" valign="top">
 
-**Sub-Class**
-
 Examples include:
-
 - General Cargo
 - Bulk Carrier
 - Container Ship
