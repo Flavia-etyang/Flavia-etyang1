@@ -420,9 +420,6 @@ The assigned confidence level reflects the **quality, completeness, and converge
 
 > **Intelligence principle:** Confidence is not determined by a single image characteristic or by analyst certainty alone. It reflects the **combined strength, reliability, and convergence of observable and corroborating evidence**. Where evidence is incomplete or conflicting, confidence is reduced accordingly.
 
-
----
-
 ---
 
 ## 5 - Evidence vs. Inference
@@ -518,109 +515,9 @@ Structured Data
         ▼
 MARITIME VESSEL INTELLIGENCE
 
-```
-
-The code in this repository demonstrates foundational analytical tooling — pixel-to-metre conversion, L/B ratio, and uncertainty handling — not an advanced machine-learning system. The value being demonstrated is maritime domain expertise translated into structured, correct, well-documented analysis.
-
-### `src/measurement.py`
-
-```python
-from measurement import measurement_with_uncertainty, length_to_beam_ratio
-
-loa = measurement_with_uncertainty(pixel_distance=364, ground_sampling_distance_m=0.5)
-beam = measurement_with_uncertainty(pixel_distance=58, ground_sampling_distance_m=0.5)
-
-print(loa)   # 182.0 ± 1.5 m
-print(beam)  # 29.0 ± 1.5 m
-print(length_to_beam_ratio(loa.value_m, beam.value_m))  # 6.28
-```
-
-### `notebooks/vessel-measurement.ipynb`
-
-Demonstrates: loading measurements → converting pixels to metres → calculating L/B ratio → recording uncertainty → exporting structured results.
-
 ---
 
-## Data
-
-[`data/vessel-assessments.csv`](data/vessel-assessments.csv) — example / placeholder records only, using the schema:
-
-```
-vessel_id, broad_type, classification,
-estimated_length_m, estimated_beam_m, lb_ratio,
-detection_confidence, dimension_confidence,
-classification_confidence, identity_confidence
-```
-
-No real vessel identities are represented.
-
----
-
-## Methodology Documentation
-
-- [`methodology/classification-framework.md`](methodology/classification-framework.md)
-- [`methodology/dimension-estimation.md`](methodology/dimension-estimation.md)
-- [`methodology/confidence-framework.md`](methodology/confidence-framework.md)
-- [`methodology/evidence-vs-inference.md`](methodology/evidence-vs-inference.md)
-
----
-
-## Data Governance
-
-Only public or appropriately licensed imagery is used in this portfolio. No proprietary satellite imagery, confidential employer material, client information, internal datasets, or restricted methodologies are included. Full statement: [`SOURCES.md`](SOURCES.md).
-
----
-
-## Repository Structure
-
-```
-satellite-vessel-intelligence/
-├── README.md
-├── SOURCES.md
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-│
-├── assets/
-│   ├── hero/
-│   │   └── portfolio-hero.svg
-│   ├── vessel-01-tanker/
-│   │   ├── eo.svg
-│   │   ├── sar.svg
-│   │   ├── measurement-overlay.svg
-│   │   └── annotated-features.svg
-│   ├── vessel-02-lpg/
-│   │   └── annotated-features.svg
-│   └── vessel-03-container/
-│       └── annotated-features.svg
-│
-├── case-studies/
-│   ├── tanker.md
-│   ├── lpg-carrier.md
-│   └── container-vessel.md
-│
-├── methodology/
-│   ├── classification-framework.md
-│   ├── dimension-estimation.md
-│   ├── confidence-framework.md
-│   └── evidence-vs-inference.md
-│
-├── data/
-│   └── vessel-assessments.csv
-│
-├── notebooks/
-│   └── vessel-measurement.ipynb
-│
-├── src/
-│   └── measurement.py
-│
-└── styles/
-    └── palette.css
-```
-
----
-
-<div align="center">
+<div align="left">
 
 *This portfolio demonstrates the analytical workflow used to turn overhead imagery into structured, defensible vessel intelligence — observation, measurement, classification, validation, and assessment, with confidence stated explicitly at each stage.*
 
