@@ -455,18 +455,21 @@ Applied where:
 
 The assigned confidence level reflects the **quality, completeness, and convergence of available evidence** at the time of assessment.
 
-> **HIGH**
+
+ **HIGH**
 >Multiple independent structural indicators.
 >Key classification features clearly observable.
 >No significant contradictory evidence.
 >Measurement boundaries sufficiently reliable.
 >Supporting external data, where available, is consistent.
-> **MEDIUM**
+
+ **MEDIUM**
 >Classification is supported by multiple indicators.
 >One or more important features are ambiguous or partially obscured.
 >Alternative classifications remain plausible.
 >External validation is limited or unavailable.
-> **LOW**
+
+ **LOW**
 >Few distinctive indicators.
 >Significant occlusion/resolution limitations.
 >Competing classifications remain plausible.
