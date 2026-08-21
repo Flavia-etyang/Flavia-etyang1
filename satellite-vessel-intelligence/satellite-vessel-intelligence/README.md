@@ -203,6 +203,7 @@ The annotation layer is paired with a structured **vessel assessment sidebar**.
 
 <img src="assets/sidebar.jpg" width="100%" />
 
+
 The purpose is to move from:
 
 **Image Detection → Measurement → Object Identification → Vessel Classification → Status → Confidence**
@@ -233,7 +234,15 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
+<div align="center">
+
+<img src="assets/ssidebar.png" width="100%" />
+
 **Class**
+
+<div align="center">
+
+<img src="assets/class.jpg" width="100%" />
 
 - Cargo
 - Tanker
@@ -245,6 +254,10 @@ The classification hierarchy separates the **broad vessel class** from the **spe
 - Other
 
 **Subclass**
+
+<div align="center">
+
+<img src="assets/subclass.jpg" width="100%" />
 
 Examples include:
 
