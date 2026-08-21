@@ -234,6 +234,14 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 The classification hierarchy separates the **broad vessel class** from the **specific vessel subclass**.
 
+**Class**
+
+The purpose is to move from:
+
+**Image Detection → Measurement → Object Identification → Vessel Classification → Status → Confidence**
+
+The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
+
 <table>
 <tr>
 <td width="55%">
