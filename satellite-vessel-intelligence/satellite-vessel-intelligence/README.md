@@ -103,9 +103,9 @@ None of these features is individually conclusive. Vessel configurations vary, a
 
 > **Intelligence Assessment**
 >
-> The observed deck configuration, longitudinal piping and aft superstructure are consistent with a tanker arrangement. The available imagery supports a **crude oil tanker hypothesis**, although vessel identity cannot be established from structural characteristics alone.
+> The observed deck configuration, longitudinal piping and aft superstructure are consistent with a tanker arrangement. The available imagery supports a **crude oil tanker hypothesis**.
 >
-> **Classification confidence: HIGH · Identity confidence: LOW**
+> **Classification confidence: HIGH ·
 
 Full write-up: [`case-studies/tanker.md`](case-studies/tanker.md)
 
@@ -151,9 +151,9 @@ LPG carriers can display distinctive cargo-containment architecture — but not 
 > **Intelligence Assessment**
 
 >
-> The observed cargo-containment structures, specialized deck configuration and vessel proportions are consistent with a **gas carrier arrangement**. The available imagery supports an **LPG carrier hypothesis**, although the specific cargo type and vessel identity cannot be established from structural characteristics alone.
+> The observed cargo-containment structures, specialized deck configuration and vessel proportions are consistent with a **gas carrier arrangement**. The available imagery supports an **LPG carrier hypothesis**.
 >
-> **Classification confidence: HIGH · Identity confidence: LOW**
+> **Classification confidence: HIGH ·
 
 Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
 
@@ -202,9 +202,9 @@ Container Vessel
 
 > **Intelligence Assessment**
 >
-> The observed repetitive container-stack geometry, cargo arrangement and deck configuration are consistent with a **container vessel**. Where deck cranes are visible, their presence provides additional supporting evidence for the classification. The available imagery supports a **container ship assessment**, although vessel identity cannot be established from structural characteristics alone.
->
-> **Classification confidence: HIGH · Identity confidence: LOW**
+> The observed repetitive container-stack geometry, cargo arrangement and deck configuration are consistent with a **container vessel**. Where deck cranes are visible, their presence provides additional supporting evidence for the classification. The available imagery supports a **container ship assessment**.
+
+> **Classification confidence: HIGH ·
 
 Full write-up: [`case-studies/container-vessel.md`](case-studies/container-vessel.md)
 
