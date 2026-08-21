@@ -487,10 +487,6 @@ The analytical workflow applied throughout this case study can be summarized as:
 ```text
 DETECT - OBSERVE - MEASURE - CLASSIFY - VALIDATE - ASSESS - ASSIGN CONFIDENCE
 
----
-
-## Technical Stack
-
 ```
 EO / Optical Imagery
 SAR
