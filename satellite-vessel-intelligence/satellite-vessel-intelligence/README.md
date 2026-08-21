@@ -367,17 +367,23 @@ L/B Ratio = Length ÷ Beam
 
 ## Confidence Framework
 
-| Level | Meaning |
+| **Confidence** | **Analytical Interpretation** |
 |---|---|
-| **HIGH** | Multiple independent visual indicators converge and image quality is sufficient. |
-| **MEDIUM** | Classification is plausible but evidence is partially obscured or ambiguous. |
-| **LOW** | Evidence is insufficient, conflicting, or limited. |
+| **HIGH** | Multiple independent visual indicators converge on the same classification, with sufficient image quality and structural detail to support a well-substantiated assessment. |
+| **MEDIUM** | Available evidence supports the classification, but one or more indicators are partially obscured, ambiguous, or insufficiently resolved for a high-confidence assessment. |
+| **LOW** | Available evidence is limited, conflicting, or insufficiently distinctive to support a reliable classification without additional imagery or corroborating data. |
+
+> **Confidence reflects the strength and convergence of available evidence — not analyst certainty alone.**
+
+### Confidence Dimensions
+
+| **Assessment** | **What it measures** |
+|---|---|
+| **Classification Confidence** | How strongly the observable structural and contextual evidence supports the assigned vessel class/subclass. |
+| **Identity Confidence** | How strongly the available evidence supports linking the observed object to a specific known vessel or maritime entity. |
 
 **Classification confidence ≠ identity confidence.**
 
-```
-Classification Confidence: HIGH
-Identity Confidence:       LOW
 ```
 
 A vessel's structural class can often be assessed directly from imagery with high confidence, while its specific identity — name, IMO number, owner, flag — typically requires independent validation (AIS, registry data, vessel particulars). These are kept as separate analytical dimensions throughout this portfolio. Full discussion: [`methodology/confidence-framework.md`](methodology/confidence-framework.md).
