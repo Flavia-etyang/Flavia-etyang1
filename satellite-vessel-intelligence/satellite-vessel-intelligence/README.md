@@ -485,19 +485,8 @@ The objective is to produce a **structured vessel assessment supported by observ
 The analytical workflow applied throughout this case study can be summarized as:
 
 ```text
-DETECT
-  ↓
-OBSERVE
-  ↓
-MEASURE
-  ↓
-CLASSIFY
-  ↓
-VALIDATE
-  ↓
-ASSESS
-  ↓
-ASSIGN CONFIDENCE
+DETECT - OBSERVE - MEASURE - CLASSIFY - VALIDATE - ASSESS - ASSIGN CONFIDENCE
+
 ---
 
 ## Technical Stack
