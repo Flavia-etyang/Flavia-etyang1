@@ -246,6 +246,8 @@ The purpose is to move from:
 
 The sidebar captures the analyst's assessment immediately after the vessel or maritime object has been detected and annotated.
 
+<div align="left">
+
 <img src="assets/class2.jpg" />
 
 
@@ -254,9 +256,9 @@ The sidebar captures the analyst's assessment immediately after the vessel or ma
 
 **Subclass**
 
-<div align="center">
+<div align="left">
 
-<img src="assets/subclass.jpg" width="50%"/>
+<img src="assets/subclass2.jpg" />
 
 Examples include:
 
