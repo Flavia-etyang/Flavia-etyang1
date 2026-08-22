@@ -36,13 +36,13 @@ flowchart TD
 
 | Stage | Description |
 |---|---|
-| **01 · OBSERVE** | Identify what it is: vessel, buoy,etc. |
-| **02 · IDENTIFY OBJECT** | Identify visible vessel characteristics. |
-| **03 · MEASURE** | Estimate length and beam. |
-| **04 · CLASSIFY** | Determine vessel class from structural evidence. |
+| **01 · OBSERVE** | Record what is directly visible in the imagery without interpretation. |
+| **02 · IDENTIFY OBJECT** | Determine whether the detected object is a vessel, platform, barge, buoy, or other maritime object. |
+| **03 · MEASURE** | Estimate vessel length and beam from the annotated geometry. |
+| **04 · CLASSIFY** | Determine vessel class and subclass from converging structural evidence. |
 | **05 · VALIDATE** | Correlate imagery observations with independent maritime data where available. |
-| **06 · ASSESS** | Assign classification |
-| **07 · CONFIDENCE** | With all aspects met, assign confidence. |
+| **06 · ASSESS** | Produce the most defensible conclusion supported by the available evidence. |
+| **07 · CONFIDENCE** | State the strength and limitations of the assessment explicitly. |
 
 ---
 
@@ -137,9 +137,9 @@ LPG Carrier
 </tr>
 </table>
 
-LPG carriers can display distinctive cargo-containment architecture — but not all LPG carriers look alike. Containment arrangements include **cylindrical tanks**, **spherical pressurized cargo tanks**, and **other containment arrangements**. A classification hypothesis should specify which pattern was observed rather than treating "gas carrier" as one visual template.
+LPG carriers can display  a specialized deck configuration with distinctive cargo-containment architecture — specifically, the gas carrier arrangement — but not all LPG carriers look alike. Containment arrangements include **cylindrical tanks** & **spherical pressurized cargo tanks containment arrangements**. A classification hypothesis should specify which pattern was observed and a good validated intelligence assessment behind the classification.
 
-**Core analytical lesson:** A clear cargo deck alone does not establish an oil-tanker classification.
+**Core analytical lesson:** A clear cargo deck alone does not establish an oil-tanker classification. There are a variety of sub-classes under tanker.
 
 > **Intelligence Assessment**
 
