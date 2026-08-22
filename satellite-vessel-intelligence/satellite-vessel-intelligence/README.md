@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero/tanker-hero.jpg" alt="Aerial view of a crude oil tanker underway" width="100%" />
+<img src="assets/hero/portfolio-hero.svg" alt="Aerial view of a crude oil tanker underway" width="100%" />
 
 # SATELLITE VESSEL INTELLIGENCE
 
@@ -48,7 +48,7 @@ flowchart TD
 
 ## Observation Layer
 
-This portfolio demonstrates analysis across three visual perspectives. Placeholders below are original SVG illustrations — never imagery that could be mistaken for real satellite data. See [`SOURCES.md`](SOURCES.md) for data governance.
+This portfolio demonstrates analysis across three visual perspectives. The observation layer uses appropriately licensed or publicly available imagery. Attribution and acquisition details are documented in `SOURCES.md`.
 
 | EO / Optical | SAR | Measurement Reference |
 |---|---|---|
@@ -67,8 +67,11 @@ This portfolio demonstrates analysis across three visual perspectives. Placehold
 </td>
 <td width="45%" valign="top">
 
-**Vessel Class**
-Tanker- Likely Crude Oil Tanker
+**Class**
+Tanker
+
+**Subclass**
+Likely Crude Oil Tanker
 
 **Estimated Length**
 182 m
@@ -77,10 +80,10 @@ Tanker- Likely Crude Oil Tanker
 29 m
 
 **Classification Confidence**
-`HIGH`
+HIGH
 
-**Identity Confidence**
-`LOW`
+**Subclass Confidence**
+MEDIUM
 
 </td>
 </tr>
@@ -98,12 +101,11 @@ None of these features is individually conclusive. Vessel configurations vary, a
 
 > **Intelligence Assessment**
 >
-> The observed deck configuration, longitudinal piping and aft superstructure are consistent with a tanker arrangement. The available imagery supports a **crude oil tanker hypothesis**.
+> The observed deck configuration, longitudinal piping and aft superstructure are consistent with a tanker arrangement. The available imagery supports a **tanker classification**, with the observed configuration providing a **crude oil tanker hypothesis**. Specific vessel identity cannot be established from structural characteristics alone.
 >
-> **Class: Tanker — HIGH
-> **Subclass: Likely Crude Oil Tanker — MEDIUM
-
-Full write-up: [`case-studies/tanker.md`](case-studies/tanker.md)
+> **Class: Tanker — HIGH**
+> **Subclass: Likely Crude Oil Tanker — MEDIUM**
+> **Identity: Unresolved**
 
 ---
 
@@ -118,7 +120,10 @@ Full write-up: [`case-studies/tanker.md`](case-studies/tanker.md)
 </td>
 <td width="45%" valign="top">
 
-**Vessel Class**
+**Class**
+Tanker
+
+**Subclass**
 LPG Carrier
 
 **Estimated Length**
@@ -128,10 +133,10 @@ LPG Carrier
 45.5 m
 
 **Classification Confidence**
-`MEDIUM`
+HIGH
 
-**Identity Confidence**
-`N/A`
+**Subclass Confidence**
+MEDIUM
 
 </td>
 </tr>
@@ -142,13 +147,12 @@ LPG carriers can display  a specialized deck configuration with distinctive carg
 **Core analytical lesson:** A clear cargo deck alone does not establish an oil-tanker classification. There are a variety of sub-classes under tanker.
 
 > **Intelligence Assessment**
-
 >
-> The observed cargo-containment structures, specialized deck configuration and vessel proportions are consistent with a **gas carrier arrangement**. The available imagery supports an **LPG carrier hypothesis**.
+> The observed cargo-containment structures, specialized deck configuration and vessel proportions are consistent with a gas-carrier arrangement. The available imagery supports an **LPG carrier hypothesis**, although the specific cargo type and vessel identity cannot be established from structural characteristics alone.
 >
-> **Classification confidence: MEDIUM 
-
-Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
+> **Class: Tanker — MEDIUM**
+> **Subclass: LPG Carrier — MEDIUM**
+> **Identity: Unresolved**
 
 ---
 
@@ -163,8 +167,11 @@ Full write-up: [`case-studies/lpg-carrier.md`](case-studies/lpg-carrier.md)
 </td>
 <td width="45%" valign="top">
 
-**Vessel Class**
-Container Vessel
+**Class**
+Cargo
+
+**Subclass**
+Container Ship
 
 **Estimated Length**
 298 m
@@ -173,10 +180,10 @@ Container Vessel
 32.5  m
 
 **Classification Confidence**
-`HIGH`
+HIGH
 
-**Identity Confidence**
-`LOW`
+**Subclass Confidence**
+HIGH
 
 </td>
 </tr>
@@ -192,11 +199,11 @@ Container Vessel
 
 > **Intelligence Assessment**
 >
-> The observed repetitive container-stack geometry, cargo arrangement and deck configuration are consistent with a **container vessel**. Where deck cranes are visible, their presence provides additional supporting evidence for the classification. The available imagery supports a **container ship assessment**.
-
-> **Classification confidence: HIGH 
-
-Full write-up: [`case-studies/container-vessel.md`](case-studies/container-vessel.md)
+> The observed repetitive container-stack geometry, cargo arrangement and deck configuration are consistent with a container vessel. Where deck cranes are visible, they provide additional supporting evidence for the classification. The available imagery supports a **container ship assessment**, although vessel identity cannot be established from structural characteristics alone.
+>
+> **Class: Cargo — HIGH**
+> **Subclass: Container Ship — HIGH**
+> **Identity: LOW**
 
 ---
 
@@ -400,13 +407,13 @@ Overhead imagery can also support an assessment of whether a vessel was underway
 
 | Status | Analytical Interpretation |
 |---|---|
-| **Sailing** | The vessel is assessed as underway based on observable indicators such as wake, position context, movement evidence, or corroborating time-series data. |
+| **Underway** | The vessel is assessed as underway based on observable indicators such as wake, position context, movement evidence, or corroborating time-series data. |
 | **Stationary** | The vessel appears stationary at the time of observation, including situations such as anchorage, berth, port waiting areas, or other static positions. |
 | **Unknown** | Available imagery does not provide sufficient evidence to reliably determine whether the vessel is moving or stationary. |
 
 #### - Evidence Considerations
 
-**Sailing**
+**Underway**
 
 Potential supporting indicators may include:
 
@@ -502,8 +509,24 @@ Because some analytical conclusions depend on assumptions that aren't directly o
 Example:
 - **Observation**: spherical structures visible on deck.
 - **Inference**: pressurized-gas containment.
-- **Assumption**: structures are cargo tanks rather than another deck installation.
-- **Assessment**: likely LPG carrier.
+- **Assumption:** The structures are cargo tanks rather than another deck installation.
+- **Assessment:** The evidence supports a likely LPG carrier classification.
+
+### Source Provenance
+
+Every external claim used to support an assessment should be traceable to its source.
+
+For each corroborating source, record where appropriate:
+
+| **Element** | **Purpose** |
+|---|---|
+| **Source** | Identify the originating database, registry, imagery provider, or publication. |
+| **Acquisition / Access Date** | Establish when the information was obtained. |
+| **Source Type** | Distinguish imagery, AIS, registry, corporate, port, or open reporting evidence. |
+| **Evidence Used** | Record the specific information supporting the assessment. |
+| **Reliability / Limitations** | Note known gaps, conflicts, or temporal limitations. |
+
+> **Analytical principle:** A conclusion is only as traceable as the evidence supporting it.
 
 #### Worked Example
 
@@ -561,15 +584,33 @@ Full discussion: [`methodology/evidence-vs-inference.md`](methodology/evidence-v
 
 ---
 
+---
+
 ## 07 - Intelligence Assessment
 
 The objective of satellite vessel analysis is not simply to detect an object or assign a vessel class.
 
-The objective is to produce a **structured vessel assessment supported by observable evidence, measurable characteristics, and independent validation where available**.
+The objective is to produce a **structured vessel assessment supported by observable evidence, measurable characteristics, independent validation, and explicitly stated uncertainty**.
 
-\`\`\`
-DETECT → OBSERVE → IDENTIFY → MEASURE → CLASSIFY → VALIDATE → ASSESS → CONFIDENCE
-\`\`\`
+```text
+DETECT
+   ↓
+OBSERVE
+   ↓
+IDENTIFY OBJECT
+   ↓
+MEASURE
+   ↓
+CLASSIFY
+   ↓
+VALIDATE
+   ↓
+ASSESS
+   ↓
+CONFIDENCE
+
+```
+**Intelligence principle**: A defensible assessment is one where the conclusion, supporting evidence, uncertainty, and provenance can be traced back to the original observation.
 
 ---
 
@@ -598,7 +639,7 @@ DETECT → OBSERVE → IDENTIFY → MEASURE → CLASSIFY → VALIDATE → ASSESS
 
 ---
 
-## 08 - Analytical Implementation
+## 09 - Analytical Implementation
 
 The analytical workflow is structured so that manual vessel assessment can be translated into reproducible data operations — from image-derived measurements and structured classification to cross-source maritime data correlation.
 
